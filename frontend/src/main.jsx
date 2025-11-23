@@ -1,14 +1,12 @@
-import "bootstrap/dist/css/bootstrap.min.css";  // ✅ Bootstrap styles
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";  // ✅ React Router for navigation
+import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
-import "./index.css";  // ✅ Custom global styles (optional)
+import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );
