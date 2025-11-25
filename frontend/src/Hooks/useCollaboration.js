@@ -1,4 +1,4 @@
-// useCollaboration.js - Custom hook for managing collaboration logic
+// useCollaboration.js - Custom hook for managing collaboration logic with proper state sync
 
 import { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
@@ -20,6 +20,7 @@ export const useCollaboration = (socket, roomId, username) => {
   const [isOutputOpen, setIsOutputOpen] = useState(true);
   
   const isRemoteUpdate = useRef(false);
+  const hasReceivedRoomState = useRef(false); // Track if we've received initial state
 
   useEffect(() => {
     if (!roomId || !username) {
@@ -32,18 +33,44 @@ export const useCollaboration = (socket, roomId, username) => {
 
     // Setup socket listeners
     const cleanup = setupSocketListeners(socket, roomId, {
-      onUsersUpdate: (roomUsers) => setUsers(roomUsers),
+      // NEW: Handle initial room state when joining
+      onRoomState: (roomState) => {
+        console.log("📥 Received room state:", roomState);
+        
+        // Mark that we've received the room state
+        hasReceivedRoomState.current = true;
+        isRemoteUpdate.current = true;
+        
+        // Apply the complete room state
+        setLanguage(roomState.language);
+        setCode(roomState.code);
+        setIsConsoleVisible(roomState.isConsoleVisible);
+        setIsOutputOpen(roomState.isOutputOpen);
+        
+        // Reset the remote update flag after state is applied
+        requestAnimationFrame(() => {
+          isRemoteUpdate.current = false;
+        });
+        
+        console.log("✅ Room state applied successfully");
+      },
+      
+      onUsersUpdate: (roomUsers) => {
+        setUsers(roomUsers);
+        console.log(`👥 Users in room: ${roomUsers.length}`);
+      },
       
       onUserJoined: (newUser) => {
-        console.log(`${newUser.username} joined`);
+        console.log(`✅ ${newUser.username} joined the room`);
       },
       
       onUserLeft: (id) => {
-        console.log(`User left: ${id}`);
+        console.log(`❌ User left: ${id}`);
       },
       
       onCodeUpdate: (newCode) => {
-        if (code !== newCode) {
+        // Only update if it's different and we're not the one who changed it
+        if (code !== newCode && !isRemoteUpdate.current) {
           isRemoteUpdate.current = true;
           setCode(newCode);
           requestAnimationFrame(() => {
@@ -53,8 +80,13 @@ export const useCollaboration = (socket, roomId, username) => {
       },
       
       onLanguageUpdate: ({ language: newLang }) => {
+        console.log(`🔄 Language changed to: ${newLang}`);
+        isRemoteUpdate.current = true;
         setLanguage(newLang);
         setCode(languageTemplates[newLang]);
+        requestAnimationFrame(() => {
+          isRemoteUpdate.current = false;
+        });
       },
       
       onCodeOutput: ({ output, error, runBy }) => {
@@ -71,10 +103,12 @@ export const useCollaboration = (socket, roomId, username) => {
 
     // Cleanup on unmount
     return () => {
+      console.log("🚪 Leaving room:", roomId);
       leaveRoom(socket, roomId);
       cleanup();
+      hasReceivedRoomState.current = false;
     };
-  }, [roomId, username, navigate]);
+  }, [roomId, username, navigate, socket]);
 
   return {
     users,

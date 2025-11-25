@@ -1,6 +1,7 @@
 // ===== SOCKET LISTENERS =====
 export const setupSocketListeners = (socket, roomId, callbacks) => {
   const {
+    onRoomState,
     onUsersUpdate,
     onUserJoined,
     onUserLeft,
@@ -8,6 +9,9 @@ export const setupSocketListeners = (socket, roomId, callbacks) => {
     onLanguageUpdate,
     onCodeOutput,
   } = callbacks;
+
+  // NEW: Listen for initial room state when joining
+  socket.on("room-state", onRoomState);
 
   // User management
   socket.on("all-users", onUsersUpdate);
@@ -25,6 +29,7 @@ export const setupSocketListeners = (socket, roomId, callbacks) => {
 
   // Cleanup
   return () => {
+    socket.off("room-state");
     socket.off("all-users");
     socket.off("user-joined");
     socket.off("user-left");
@@ -92,7 +97,11 @@ export const onOutputVisibilityChange = (socket, callback) => {
   socket.on("console:output-visibility-change", ({ isOutputOpen }) => callback(isOutputOpen));
 };
 
-// ===== INPUT SYNC =====
+// ===== NEW: COLLABORATIVE INPUT FUNCTIONS =====
+
+/**
+ * Emit input change to other users
+ */
 export const emitInputChange = (socket, roomId, input) => {
   socket.emit("input:change", { roomId, input });
 };

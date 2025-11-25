@@ -33,6 +33,7 @@ import {
 import { useCollaboration } from "../hooks/useCollaboration";
 import ConsoleManager from "../components/ConsoleManager";
 import CursorOverlay from "../components/CursorOverlay";
+import AccessRequestNotification from "../components/AccessRequestNotification";
 import "../styles/Editor.css";
 
 const debounce = (fn, delay) => {
@@ -346,7 +347,7 @@ const CodeEditor = ({ roomId, username }) => {
   };
 
   return (
-    <div className={`editor-container ${!isChatOpen ? 'chat-hidden' : ''}`}>
+    <div className="editor-container">
       {/* Animated Background Elements */}
       <div className="editor-bg-orb orb-1"></div>
       <div className="editor-bg-orb orb-2"></div>

@@ -1,0 +1,421 @@
+/* ===== KEYFRAME ANIMATIONS ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  75% {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes dotPulse {
+  0%, 60%, 100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+  30% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+/* ===== MAIN CONTAINER ===== */
+.access-control-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f111a 0%, #1a1d2e 100%);
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Background Orbs */
+.access-control-container::before {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(0, 255, 127, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  top: -100px;
+  left: -100px;
+  pointer-events: none;
+}
+
+.access-control-container::after {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(97, 218, 251, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  bottom: -50px;
+  right: -50px;
+  pointer-events: none;
+}
+
+/* ===== ACCESS CARD ===== */
+.access-card {
+  background: linear-gradient(135deg, #1e1e2f 0%, #252538 100%);
+  border: 1px solid rgba(97, 218, 251, 0.2);
+  border-radius: 16px;
+  padding: 48px 40px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 10;
+  animation: fadeIn 0.6s ease-out;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.access-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(97, 218, 251, 0.3), transparent);
+  border-radius: 16px 16px 0 0;
+}
+
+/* ===== CHECKING STATE ===== */
+.access-card.checking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.spinner-large {
+  width: 60px;
+  height: 60px;
+  border: 4px solid rgba(97, 218, 251, 0.2);
+  border-top-color: #00ff7f;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+
+.access-card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  animation: slideInDown 0.6s ease-out 0.2s both;
+}
+
+.access-card p {
+  font-size: 14px;
+  color: #a0a0b0;
+  margin: 0;
+  animation: slideInDown 0.6s ease-out 0.3s both;
+}
+
+/* ===== PENDING STATE ===== */
+.access-card.pending {
+  animation: slideInDown 0.6s ease-out;
+}
+
+.pending-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.pending-dot {
+  width: 12px;
+  height: 12px;
+  background: #00ff7f;
+  border-radius: 50%;
+  animation: dotPulse 1.4s infinite;
+}
+
+.pending-dot.dot-1 {
+  animation-delay: 0s;
+}
+
+.pending-dot.dot-2 {
+  animation-delay: 0.2s;
+}
+
+.pending-dot.dot-3 {
+  animation-delay: 0.4s;
+}
+
+.pending-message {
+  font-size: 16px;
+  color: #61dafb;
+  font-weight: 600;
+  margin: 0 0 24px 0;
+  animation: slideInDown 0.6s ease-out 0.2s both;
+}
+
+.pending-details {
+  background: linear-gradient(135deg, rgba(0, 255, 127, 0.05) 0%, rgba(97, 218, 251, 0.05) 100%);
+  border: 1px solid rgba(97, 218, 251, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  animation: slideInDown 0.6s ease-out 0.3s both;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.detail-item:not(:last-child) {
+  border-bottom: 1px solid rgba(97, 218, 251, 0.1);
+  margin-bottom: 8px;
+  padding-bottom: 12px;
+}
+
+.detail-label {
+  color: #a0a0b0;
+  font-weight: 600;
+}
+
+.detail-value {
+  color: #00ff7f;
+  font-weight: 700;
+  font-family: "Fira Code", monospace;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, rgba(155, 89, 182, 0.1) 0%, rgba(97, 218, 251, 0.1) 100%);
+  border: 1px solid rgba(155, 89, 182, 0.2);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 24px;
+  font-size: 13px;
+  color: #d0d0e0;
+  line-height: 1.6;
+  animation: slideInDown 0.6s ease-out 0.4s both;
+}
+
+.info-icon {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+/* ===== REJECTED STATE ===== */
+.access-card.rejected {
+  animation: shake 0.5s ease-out, slideInDown 0.6s ease-out 0.5s both;
+}
+
+.rejection-icon {
+  font-size: 60px;
+  margin-bottom: 16px;
+  animation: bounce 0.6s ease-out;
+}
+
+.rejection-message {
+  font-size: 16px;
+  color: #ff9999;
+  font-weight: 600;
+  margin: 16px 0 24px 0;
+  animation: slideInDown 0.6s ease-out 0.2s both;
+}
+
+.rejection-reasons {
+  background: linear-gradient(135deg, rgba(231, 76, 60, 0.05) 0%, rgba(192, 57, 43, 0.05) 100%);
+  border: 1px solid rgba(231, 76, 60, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 24px;
+  text-align: left;
+  animation: slideInDown 0.6s ease-out 0.3s both;
+}
+
+.reason-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: #e0e0e0;
+  margin-bottom: 12px;
+}
+
+.reason-icon {
+  font-size: 16px;
+}
+
+.rejection-reasons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rejection-reasons li {
+  padding: 8px 0 8px 24px;
+  position: relative;
+  font-size: 13px;
+  color: #a0a0b0;
+  line-height: 1.6;
+}
+
+.rejection-reasons li::before {
+  content: '•';
+  position: absolute;
+  left: 8px;
+  color: #ff9999;
+  font-weight: bold;
+}
+
+.help-text {
+  font-size: 12px;
+  color: #7a7a8c;
+  margin-top: 20px;
+  animation: slideInDown 0.6s ease-out 0.4s both;
+}
+
+/* ===== ACTION BUTTONS ===== */
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  animation: slideInDown 0.6s ease-out 0.4s both;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #00ff7f 0%, #00cc66 100%);
+  color: #000;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 255, 127, 0.4);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #61dafb 0%, #4ca9d8 100%);
+  color: #000;
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(97, 218, 251, 0.4);
+}
+
+.btn-secondary:active {
+  transform: translateY(0);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .access-card {
+    padding: 32px 24px;
+    border-radius: 12px;
+  }
+
+  .access-card h2 {
+    font-size: 20px;
+  }
+
+  .access-card p {
+    font-size: 13px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .rejection-reasons {
+    padding: 16px;
+  }
+
+  .detail-item {
+    font-size: 13px;
+  }
+}

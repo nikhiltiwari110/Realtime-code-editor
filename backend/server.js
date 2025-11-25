@@ -26,6 +26,12 @@ app.use(express.json());
 
 const rooms = {};
 
+// Store room state (code, language, console settings)
+const roomStates = {};
+
+// NEW: Store pending access requests
+const pendingRequests = {};
+
 const languageMap = {
   javascript: 63,
   python: 71,
@@ -33,8 +39,100 @@ const languageMap = {
   java: 62,
 };
 
+// Initialize room state with defaults
+const initializeRoomState = (roomId) => {
+  if (!roomStates[roomId]) {
+    roomStates[roomId] = {
+      code: "// Start coding...",
+      language: "javascript",
+      isConsoleVisible: true,
+      isOutputOpen: true,
+      input: "",
+    };
+  }
+  return roomStates[roomId];
+};
+
 io.on("connection", (socket) => {
   console.log("User connected:", socket.id);
+
+  // ========================================
+  // NEW: ROOM ACCESS CONTROL
+  // ========================================
+  
+  socket.on("request-room-access", ({ roomId, username }) => {
+    if (!roomId || !username) return;
+
+    // Check if room exists and has users
+    if (!rooms[roomId] || rooms[roomId].length === 0) {
+      // Room doesn't exist or is empty - auto-approve (user becomes owner)
+      socket.emit("access-approved", { roomId });
+      console.log(`✅ ${username} auto-approved for new/empty room ${roomId} (becomes owner)`);
+    } else {
+      // Room exists with users - request approval from owner
+      const roomOwner = rooms[roomId][0]; // First user is owner
+      
+      // Store pending request
+      if (!pendingRequests[roomId]) {
+        pendingRequests[roomId] = [];
+      }
+      
+      pendingRequests[roomId].push({
+        requesterId: socket.id,
+        username: username,
+        timestamp: Date.now(),
+      });
+      
+      // Send approval request to room owner
+      io.to(roomOwner.id).emit("access-request", {
+        roomId,
+        username,
+        requesterId: socket.id,
+      });
+      
+      // Send room owner info to requester
+      socket.emit("room-owner-info", { owner: roomOwner.username });
+      
+      console.log(`🔔 ${username} requesting access to room ${roomId} from owner ${roomOwner.username}`);
+    }
+  });
+
+  // Handle access approval from room owner
+  socket.on("approve-access", ({ roomId, requesterId }) => {
+    // Send approval to requester
+    io.to(requesterId).emit("access-approved", { roomId });
+    
+    // Remove from pending requests
+    if (pendingRequests[roomId]) {
+      pendingRequests[roomId] = pendingRequests[roomId].filter(
+        req => req.requesterId !== requesterId
+      );
+    }
+    
+    console.log(`✅ Access approved for requester ${requesterId} in room ${roomId}`);
+  });
+
+  // Handle access rejection from room owner
+  socket.on("reject-access", ({ roomId, requesterId, reason }) => {
+    // Send rejection to requester
+    io.to(requesterId).emit("access-rejected", { 
+      roomId,
+      reason: reason || "❌ Room owner rejected your request."
+    });
+    
+    // Remove from pending requests
+    if (pendingRequests[roomId]) {
+      pendingRequests[roomId] = pendingRequests[roomId].filter(
+        req => req.requesterId !== requesterId
+      );
+    }
+    
+    console.log(`❌ Access rejected for requester ${requesterId} in room ${roomId}`);
+  });
+
+  // ========================================
+  // EXISTING: JOIN ROOM (AFTER APPROVAL)
+  // ========================================
 
   socket.on("join-room", ({ roomId, username }) => {
     if (!roomId) return;
@@ -49,6 +147,13 @@ io.on("connection", (socket) => {
     rooms[roomId] = rooms[roomId].filter((u) => u.username !== username);
 
     rooms[roomId].push({ id: socket.id, username });
+
+    // Initialize room state if first user
+    const roomState = initializeRoomState(roomId);
+
+    // Send current room state to the joining user
+    console.log("📤 Sending room state to new user:", roomId);
+    socket.emit("room-state", roomState);
 
     io.to(roomId).emit("all-users", rooms[roomId]);
     socket.to(roomId).emit("user-joined", { id: socket.id, username });
@@ -65,16 +170,29 @@ io.on("connection", (socket) => {
     socket.to(roomId).emit("user-left", socket.id);
     io.to(roomId).emit("all-users", rooms[roomId]);
 
-    if (rooms[roomId].length === 0) delete rooms[roomId];
+    // Clean up room state if no users left
+    if (rooms[roomId].length === 0) {
+      delete rooms[roomId];
+      delete roomStates[roomId];
+      delete pendingRequests[roomId]; // NEW: Clean up pending requests
+    }
     
     console.log(`User left room ${roomId}`);
   });
 
   socket.on("code-change", ({ roomId, code }) => {
+    // Store code in room state
+    if (roomStates[roomId]) {
+      roomStates[roomId].code = code;
+    }
     socket.to(roomId).emit("code-update", code);
   });
 
   socket.on("language-update", ({ roomId, language }) => {
+    // Store language in room state
+    if (roomStates[roomId]) {
+      roomStates[roomId].language = language;
+    }
     socket.to(roomId).emit("language-update", { language });
     const roomUsers = rooms[roomId] || [];
     if (roomUsers.length > 1) {
@@ -93,28 +211,37 @@ io.on("connection", (socket) => {
     });
   });
 
-  // NEW: Console height change - broadcast to all users in room
+  // Console height change
   socket.on("console:height-change", ({ roomId, height }) => {
     socket.to(roomId).emit("console:height-change", { height });
   });
 
-  // NEW: Console visibility change - broadcast to all users in room
+  // Console visibility change
   socket.on("console:visibility-change", ({ roomId, isVisible }) => {
+    if (roomStates[roomId]) {
+      roomStates[roomId].isConsoleVisible = isVisible;
+    }
     socket.to(roomId).emit("console:visibility-change", { isVisible });
   });
 
-  // NEW: Input panel visibility change - broadcast to all users in room
+  // Input panel visibility change
   socket.on("console:input-visibility-change", ({ roomId, isInputOpen }) => {
     socket.to(roomId).emit("console:input-visibility-change", { isInputOpen });
   });
 
-  // NEW: Output panel visibility change - broadcast to all users in room
+  // Output panel visibility change
   socket.on("console:output-visibility-change", ({ roomId, isOutputOpen }) => {
+    if (roomStates[roomId]) {
+      roomStates[roomId].isOutputOpen = isOutputOpen;
+    }
     socket.to(roomId).emit("console:output-visibility-change", { isOutputOpen });
   });
 
-  // NEW: Input field change - broadcast to all users in room
+  // Input field change
   socket.on("input:change", ({ roomId, input }) => {
+    if (roomStates[roomId]) {
+      roomStates[roomId].input = input;
+    }
     socket.to(roomId).emit("input:change", { input });
   });
 
@@ -267,7 +394,11 @@ socket.on("askAI", async ({ roomId, username, prompt }) => {
         socket.to(roomId).emit("user-left", socket.id);
         io.to(roomId).emit("all-users", rooms[roomId]);
       }
-      if (rooms[roomId].length === 0) delete rooms[roomId];
+      if (rooms[roomId].length === 0) {
+        delete rooms[roomId];
+        delete roomStates[roomId];
+        delete pendingRequests[roomId]; // Clean up pending requests
+      }
     }
   });
 });

@@ -1,0 +1,170 @@
+/* AccessRequest.css - Styling for access request notifications */
+
+.access-requests-container {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  width: 100%;
+  animation: slideInRight 0.4s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.access-request-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, #1e1e2f 0%, #252538 100%);
+  border: 2px solid rgba(97, 218, 251, 0.3);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  animation: slideInRight 0.4s ease-out, pulse 2s ease-in-out infinite;
+  backdrop-filter: blur(10px);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 8px 32px rgba(97, 218, 251, 0.3);
+  }
+}
+
+.request-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+  animation: bounce 1s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.request-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.request-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #61dafb;
+  margin: 0 0 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.request-message {
+  font-size: 13px;
+  color: #e0e0e0;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.request-message strong {
+  color: #00ff7f;
+  font-weight: 700;
+}
+
+.request-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.approve-btn,
+.reject-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.approve-btn {
+  background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+  color: #000;
+  box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+}
+
+.approve-btn:hover {
+  background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(46, 204, 113, 0.5);
+}
+
+.approve-btn:active {
+  transform: translateY(0);
+}
+
+.reject-btn {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(231, 76, 60, 0.3);
+}
+
+.reject-btn:hover {
+  background: linear-gradient(135deg, #c0392b 0%, #a93226 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(231, 76, 60, 0.5);
+}
+
+.reject-btn:active {
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .access-requests-container {
+    top: 60px;
+    right: 10px;
+    left: 10px;
+    max-width: none;
+  }
+
+  .access-request-card {
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .request-icon {
+    font-size: 24px;
+  }
+
+  .request-actions {
+    flex-direction: row;
+  }
+
+  .approve-btn,
+  .reject-btn {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+}
