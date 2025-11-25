@@ -40,13 +40,13 @@ const ConsoleManager = ({
   if (!isConsoleVisible) {
     return (
       <button
-        className="show-console-btn"
+        className="show-console-btn-small"
         onClick={setIsConsoleVisible}
         title="Show Console"
       >
-        <span className="console-show-icon">⚙️</span>
-        <span className="console-show-text">Show Console</span>
-        <span className="console-show-arrow">↑</span>
+        <span className="console-show-icon-small">⚙️</span>
+        <span className="console-show-text-small">Show Console</span>
+        <span className="console-show-arrow-small">↑</span>
       </button>
     );
   }

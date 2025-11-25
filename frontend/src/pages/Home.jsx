@@ -68,23 +68,6 @@ export default function Home() {
       <div className="orb orb-3"></div>
       <div className="orb orb-4"></div>
       
-      {/* Floating Code Symbols */}
-      <div className="code-symbols">
-        {['<', '>', '{', '}', '/', '*', '+', '='].map((symbol, i) => (
-          <div 
-            key={i} 
-            className="code-symbol"
-            style={{
-              left: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 5}s`,
-              animationDuration: `${10 + Math.random() * 10}s`
-            }}
-          >
-            {symbol}
-          </div>
-        ))}
-      </div>
-
       <div className="row w-100">
         {/* Left Side - Feature Showcase */}
         <div className="col-md-6 d-flex justify-content-center align-items-center left-section">
@@ -95,8 +78,8 @@ export default function Home() {
               <div className="icon-ring ring-2"></div>
               <div className="icon-ring ring-3"></div>
               <div className="code-icon-3d">
-                <div className="icon-front">💻</div>
-                <div className="holographic-overlay"></div>
+                {/* <div className="icon-front">💻</div> */}
+                {/* <div className="holographic-overlay"></div> */}
               </div>
             </div>
             
@@ -238,6 +221,7 @@ export default function Home() {
             {/* Enhanced Generate Button */}
             <button
               className="btn generate-button-3d"
+              style={{ color: 'white' }}
               onClick={handleGenerateRoomId}
               disabled={isGenerating}
             >

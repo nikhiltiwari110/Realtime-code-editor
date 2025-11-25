@@ -1,0 +1,1979 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 3E7E-159E
+C:.
++---backend
+¦   +---node_modules
+¦       +---@socket.io
+¦       ¦   +---component-emitter
+¦       ¦       +---lib
+¦       ¦           +---cjs
+¦       ¦           +---esm
+¦       +---@types
+¦       ¦   +---cors
+¦       ¦   +---node
+¦       ¦       +---assert
+¦       ¦       +---compatibility
+¦       ¦       +---dns
+¦       ¦       +---fs
+¦       ¦       +---readline
+¦       ¦       +---stream
+¦       ¦       +---timers
+¦       ¦       +---ts5.6
+¦       ¦       ¦   +---compatibility
+¦       ¦       +---ts5.7
+¦       ¦           +---compatibility
+¦       +---accepts
+¦       +---asynckit
+¦       ¦   +---lib
+¦       +---axios
+¦       ¦   +---dist
+¦       ¦   ¦   +---browser
+¦       ¦   ¦   +---esm
+¦       ¦   ¦   +---node
+¦       ¦   +---lib
+¦       ¦       +---adapters
+¦       ¦       +---cancel
+¦       ¦       +---core
+¦       ¦       +---defaults
+¦       ¦       +---env
+¦       ¦       ¦   +---classes
+¦       ¦       +---helpers
+¦       ¦       +---platform
+¦       ¦           +---browser
+¦       ¦           ¦   +---classes
+¦       ¦           +---common
+¦       ¦           +---node
+¦       ¦               +---classes
+¦       +---base64id
+¦       ¦   +---lib
+¦       +---body-parser
+¦       ¦   +---lib
+¦       ¦       +---types
+¦       +---bytes
+¦       +---call-bind-apply-helpers
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---call-bound
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---combined-stream
+¦       ¦   +---lib
+¦       +---content-disposition
+¦       +---content-type
+¦       +---cookie
+¦       +---cookie-signature
+¦       +---cors
+¦       ¦   +---lib
+¦       +---debug
+¦       ¦   +---src
+¦       +---delayed-stream
+¦       ¦   +---lib
+¦       +---depd
+¦       ¦   +---lib
+¦       ¦       +---browser
+¦       +---dotenv
+¦       ¦   +---lib
+¦       +---dunder-proto
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---ee-first
+¦       +---encodeurl
+¦       +---engine.io
+¦       ¦   +---build
+¦       ¦   ¦   +---contrib
+¦       ¦   ¦   +---parser-v3
+¦       ¦   ¦   +---transports
+¦       ¦   ¦   +---transports-uws
+¦       ¦   +---node_modules
+¦       ¦       +---accepts
+¦       ¦       +---debug
+¦       ¦       ¦   +---src
+¦       ¦       +---mime-db
+¦       ¦       +---mime-types
+¦       ¦       +---negotiator
+¦       ¦           +---lib
+¦       +---engine.io-parser
+¦       ¦   +---build
+¦       ¦       +---cjs
+¦       ¦       ¦   +---contrib
+¦       ¦       +---esm
+¦       ¦           +---contrib
+¦       +---es-define-property
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---es-errors
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---es-object-atoms
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---es-set-tostringtag
+¦       ¦   +---test
+¦       +---escape-html
+¦       +---etag
+¦       +---express
+¦       ¦   +---lib
+¦       +---finalhandler
+¦       +---follow-redirects
+¦       +---form-data
+¦       ¦   +---lib
+¦       ¦   +---node_modules
+¦       ¦       +---mime-db
+¦       ¦       +---mime-types
+¦       +---forwarded
+¦       +---fresh
+¦       +---function-bind
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---get-intrinsic
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---get-proto
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---gopd
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---has-symbols
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       ¦       +---shams
+¦       +---has-tostringtag
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       ¦       +---shams
+¦       +---hasown
+¦       ¦   +---.github
+¦       +---http-errors
+¦       ¦   +---node_modules
+¦       ¦       +---statuses
+¦       +---iconv-lite
+¦       ¦   +---.github
+¦       ¦   +---.idea
+¦       ¦   ¦   +---codeStyles
+¦       ¦   ¦   +---inspectionProfiles
+¦       ¦   +---encodings
+¦       ¦   ¦   +---tables
+¦       ¦   +---lib
+¦       +---inherits
+¦       +---ipaddr.js
+¦       ¦   +---lib
+¦       +---is-promise
+¦       +---math-intrinsics
+¦       ¦   +---.github
+¦       ¦   +---constants
+¦       ¦   +---test
+¦       +---media-typer
+¦       +---merge-descriptors
+¦       +---mime-db
+¦       +---mime-types
+¦       +---ms
+¦       +---negotiator
+¦       ¦   +---lib
+¦       +---object-assign
+¦       +---object-inspect
+¦       ¦   +---.github
+¦       ¦   +---example
+¦       ¦   +---test
+¦       ¦       +---browser
+¦       +---on-finished
+¦       +---once
+¦       +---parseurl
+¦       +---path-to-regexp
+¦       ¦   +---dist
+¦       +---proxy-addr
+¦       +---proxy-from-env
+¦       +---qs
+¦       ¦   +---.github
+¦       ¦   +---dist
+¦       ¦   +---lib
+¦       ¦   +---test
+¦       +---range-parser
+¦       +---raw-body
+¦       +---router
+¦       ¦   +---lib
+¦       +---safe-buffer
+¦       +---safer-buffer
+¦       +---send
+¦       +---serve-static
+¦       +---setprototypeof
+¦       ¦   +---test
+¦       +---side-channel
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---side-channel-list
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---side-channel-map
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---side-channel-weakmap
+¦       ¦   +---.github
+¦       ¦   +---test
+¦       +---socket.io
+¦       ¦   +---client-dist
+¦       ¦   +---dist
+¦       ¦   +---node_modules
+¦       ¦       +---accepts
+¦       ¦       +---debug
+¦       ¦       ¦   +---src
+¦       ¦       +---mime-db
+¦       ¦       +---mime-types
+¦       ¦       +---negotiator
+¦       ¦           +---lib
+¦       +---socket.io-adapter
+¦       ¦   +---dist
+¦       ¦   ¦   +---contrib
+¦       ¦   +---node_modules
+¦       ¦       +---debug
+¦       ¦           +---src
+¦       +---socket.io-parser
+¦       ¦   +---build
+¦       ¦   ¦   +---cjs
+¦       ¦   ¦   +---esm
+¦       ¦   ¦   +---esm-debug
+¦       ¦   +---node_modules
+¦       ¦       +---debug
+¦       ¦           +---src
+¦       +---statuses
+¦       +---toidentifier
+¦       +---type-is
+¦       +---undici-types
+¦       +---unpipe
+¦       +---vary
+¦       +---wrappy
+¦       +---ws
+¦           +---lib
++---frontend
+    +---node_modules
+    ¦   +---.bin
+    ¦   +---.vite
+    ¦   ¦   +---deps
+    ¦   +---.vite-temp
+    ¦   +---@ampproject
+    ¦   ¦   +---remapping
+    ¦   ¦       +---dist
+    ¦   ¦           +---types
+    ¦   +---@babel
+    ¦   ¦   +---code-frame
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---compat-data
+    ¦   ¦   ¦   +---data
+    ¦   ¦   +---core
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   ¦   ¦   +---config
+    ¦   ¦   ¦   ¦   ¦   +---files
+    ¦   ¦   ¦   ¦   ¦   +---helpers
+    ¦   ¦   ¦   ¦   ¦   +---validation
+    ¦   ¦   ¦   ¦   +---errors
+    ¦   ¦   ¦   ¦   +---gensync-utils
+    ¦   ¦   ¦   ¦   +---parser
+    ¦   ¦   ¦   ¦   ¦   +---util
+    ¦   ¦   ¦   ¦   +---tools
+    ¦   ¦   ¦   ¦   +---transformation
+    ¦   ¦   ¦   ¦   ¦   +---file
+    ¦   ¦   ¦   ¦   ¦   +---util
+    ¦   ¦   ¦   ¦   +---vendor
+    ¦   ¦   ¦   +---src
+    ¦   ¦   ¦       +---config
+    ¦   ¦   ¦           +---files
+    ¦   ¦   +---generator
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   ¦       +---generators
+    ¦   ¦   ¦       +---node
+    ¦   ¦   +---helper-compilation-targets
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---helper-globals
+    ¦   ¦   ¦   +---data
+    ¦   ¦   +---helper-module-imports
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---helper-module-transforms
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---helper-plugin-utils
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---helper-string-parser
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---helper-validator-identifier
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---helper-validator-option
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---helpers
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   ¦       +---helpers
+    ¦   ¦   +---parser
+    ¦   ¦   ¦   +---bin
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   ¦   +---typings
+    ¦   ¦   +---plugin-transform-react-jsx-self
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---plugin-transform-react-jsx-source
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---template
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   +---traverse
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   ¦       +---path
+    ¦   ¦   ¦       ¦   +---inference
+    ¦   ¦   ¦       ¦   +---lib
+    ¦   ¦   ¦       +---scope
+    ¦   ¦   ¦           +---lib
+    ¦   ¦   +---types
+    ¦   ¦       +---lib
+    ¦   ¦           +---asserts
+    ¦   ¦           ¦   +---generated
+    ¦   ¦           +---ast-types
+    ¦   ¦           ¦   +---generated
+    ¦   ¦           +---builders
+    ¦   ¦           ¦   +---flow
+    ¦   ¦           ¦   +---generated
+    ¦   ¦           ¦   +---react
+    ¦   ¦           ¦   +---typescript
+    ¦   ¦           +---clone
+    ¦   ¦           +---comments
+    ¦   ¦           +---constants
+    ¦   ¦           ¦   +---generated
+    ¦   ¦           +---converters
+    ¦   ¦           +---definitions
+    ¦   ¦           +---modifications
+    ¦   ¦           ¦   +---flow
+    ¦   ¦           ¦   +---typescript
+    ¦   ¦           +---retrievers
+    ¦   ¦           +---traverse
+    ¦   ¦           +---utils
+    ¦   ¦           ¦   +---react
+    ¦   ¦           +---validators
+    ¦   ¦               +---generated
+    ¦   ¦               +---react
+    ¦   +---@esbuild
+    ¦   ¦   +---win32-x64
+    ¦   +---@eslint
+    ¦   ¦   +---config-array
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦       +---cjs
+    ¦   ¦   ¦       ¦   +---std__path
+    ¦   ¦   ¦       +---esm
+    ¦   ¦   ¦           +---std__path
+    ¦   ¦   +---config-helpers
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦       +---cjs
+    ¦   ¦   ¦       +---esm
+    ¦   ¦   +---core
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦       +---cjs
+    ¦   ¦   ¦       +---esm
+    ¦   ¦   +---eslintrc
+    ¦   ¦   ¦   +---conf
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   ¦   ¦   +---config-array
+    ¦   ¦   ¦   ¦   +---shared
+    ¦   ¦   ¦   ¦   +---types
+    ¦   ¦   ¦   +---node_modules
+    ¦   ¦   ¦       +---globals
+    ¦   ¦   +---js
+    ¦   ¦   ¦   +---src
+    ¦   ¦   ¦   ¦   +---configs
+    ¦   ¦   ¦   +---types
+    ¦   ¦   +---object-schema
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦       +---cjs
+    ¦   ¦   ¦       +---esm
+    ¦   ¦   +---plugin-kit
+    ¦   ¦       +---dist
+    ¦   ¦           +---cjs
+    ¦   ¦           +---esm
+    ¦   +---@eslint-community
+    ¦   ¦   +---eslint-utils
+    ¦   ¦   ¦   +---node_modules
+    ¦   ¦   ¦       +---eslint-visitor-keys
+    ¦   ¦   ¦           +---dist
+    ¦   ¦   ¦           +---lib
+    ¦   ¦   +---regexpp
+    ¦   +---@humanfs
+    ¦   ¦   +---core
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦   +---src
+    ¦   ¦   +---node
+    ¦   ¦       +---dist
+    ¦   ¦       +---src
+    ¦   +---@humanwhocodes
+    ¦   ¦   +---module-importer
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦   +---src
+    ¦   ¦   +---retry
+    ¦   ¦       +---dist
+    ¦   +---@jridgewell
+    ¦   ¦   +---gen-mapping
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦   ¦   +---types
+    ¦   ¦   ¦   +---src
+    ¦   ¦   ¦   +---types
+    ¦   ¦   +---resolve-uri
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦       +---types
+    ¦   ¦   +---sourcemap-codec
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦   +---src
+    ¦   ¦   ¦   +---types
+    ¦   ¦   +---trace-mapping
+    ¦   ¦       +---dist
+    ¦   ¦       +---src
+    ¦   ¦       +---types
+    ¦   +---@monaco-editor
+    ¦   ¦   +---loader
+    ¦   ¦   ¦   +---lib
+    ¦   ¦   ¦   ¦   +---cjs
+    ¦   ¦   ¦   ¦   ¦   +---config
+    ¦   ¦   ¦   ¦   ¦   +---loader
+    ¦   ¦   ¦   ¦   ¦   +---utils
+    ¦   ¦   ¦   ¦   ¦   +---validators
+    ¦   ¦   ¦   ¦   ¦   +---_virtual
+    ¦   ¦   ¦   ¦   +---es
+    ¦   ¦   ¦   ¦   ¦   +---config
+    ¦   ¦   ¦   ¦   ¦   +---loader
+    ¦   ¦   ¦   ¦   ¦   +---utils
+    ¦   ¦   ¦   ¦   ¦   +---validators
+    ¦   ¦   ¦   ¦   ¦   +---_virtual
+    ¦   ¦   ¦   ¦   +---umd
+    ¦   ¦   ¦   +---playground
+    ¦   ¦   +---react
+    ¦   ¦       +---.github
+    ¦   ¦       ¦   +---ISSUE_TEMPLATE
+    ¦   ¦       +---dist
+    ¦   +---@popperjs
+    ¦   ¦   +---core
+    ¦   ¦       +---dist
+    ¦   ¦       ¦   +---cjs
+    ¦   ¦       ¦   +---esm
+    ¦   ¦       ¦   ¦   +---dom-utils
+    ¦   ¦       ¦   ¦   +---modifiers
+    ¦   ¦       ¦   ¦   +---utils
+    ¦   ¦       ¦   +---umd
+    ¦   ¦       +---lib
+    ¦   ¦           +---dom-utils
+    ¦   ¦           +---modifiers
+    ¦   ¦           +---utils
+    ¦   +---@rolldown
+    ¦   ¦   +---pluginutils
+    ¦   ¦       +---dist
+    ¦   +---@rollup
+    ¦   ¦   +---rollup-win32-x64-msvc
+    ¦   +---@socket.io
+    ¦   ¦   +---component-emitter
+    ¦   ¦       +---lib
+    ¦   ¦           +---cjs
+    ¦   ¦           +---esm
+    ¦   +---@types
+    ¦   ¦   +---babel__core
+    ¦   ¦   +---babel__generator
+    ¦   ¦   +---babel__template
+    ¦   ¦   +---babel__traverse
+    ¦   ¦   +---estree
+    ¦   ¦   +---json-schema
+    ¦   ¦   +---mdast
+    ¦   ¦   +---react
+    ¦   ¦   ¦   +---ts5.0
+    ¦   ¦   ¦       +---v18
+    ¦   ¦   ¦           +---ts5.0
+    ¦   ¦   +---react-dom
+    ¦   ¦   ¦   +---test-utils
+    ¦   ¦   +---unist
+    ¦   +---@vitejs
+    ¦   ¦   +---plugin-react
+    ¦   ¦       +---dist
+    ¦   +---acorn
+    ¦   ¦   +---bin
+    ¦   ¦   +---dist
+    ¦   +---acorn-jsx
+    ¦   +---ajv
+    ¦   ¦   +---dist
+    ¦   ¦   +---lib
+    ¦   ¦   ¦   +---compile
+    ¦   ¦   ¦   +---dot
+    ¦   ¦   ¦   +---dotjs
+    ¦   ¦   ¦   +---refs
+    ¦   ¦   +---scripts
+    ¦   +---ansi-styles
+    ¦   +---argparse
+    ¦   ¦   +---lib
+    ¦   +---aria-query
+    ¦   ¦   +---lib
+    ¦   ¦       +---etc
+    ¦   ¦       ¦   +---roles
+    ¦   ¦       ¦       +---abstract
+    ¦   ¦       ¦       +---dpub
+    ¦   ¦       ¦       +---graphics
+    ¦   ¦       ¦       +---literal
+    ¦   ¦       +---util
+    ¦   +---array-buffer-byte-length
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---array-includes
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---array.prototype.findlast
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---array.prototype.flat
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---array.prototype.flatmap
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---array.prototype.tosorted
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---arraybuffer.prototype.slice
+    ¦   ¦   +---test
+    ¦   +---ast-types-flow
+    ¦   ¦   +---lib
+    ¦   +---async-function
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---available-typed-arrays
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---axe-core
+    ¦   ¦   +---locales
+    ¦   +---axobject-query
+    ¦   ¦   +---lib
+    ¦   ¦       +---etc
+    ¦   ¦       ¦   +---objects
+    ¦   ¦       +---util
+    ¦   +---balanced-match
+    ¦   ¦   +---.github
+    ¦   +---bootstrap
+    ¦   ¦   +---dist
+    ¦   ¦   ¦   +---css
+    ¦   ¦   ¦   +---js
+    ¦   ¦   +---js
+    ¦   ¦   ¦   +---dist
+    ¦   ¦   ¦   ¦   +---dom
+    ¦   ¦   ¦   ¦   +---util
+    ¦   ¦   ¦   +---src
+    ¦   ¦   ¦       +---dom
+    ¦   ¦   ¦       +---util
+    ¦   ¦   +---scss
+    ¦   ¦       +---forms
+    ¦   ¦       +---helpers
+    ¦   ¦       +---mixins
+    ¦   ¦       +---utilities
+    ¦   ¦       +---vendor
+    ¦   +---brace-expansion
+    ¦   +---browserslist
+    ¦   +---call-bind
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---call-bind-apply-helpers
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---call-bound
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---callsites
+    ¦   +---caniuse-lite
+    ¦   ¦   +---data
+    ¦   ¦   ¦   +---features
+    ¦   ¦   ¦   +---regions
+    ¦   ¦   +---dist
+    ¦   ¦       +---lib
+    ¦   ¦       +---unpacker
+    ¦   +---chalk
+    ¦   ¦   +---source
+    ¦   +---character-entities
+    ¦   +---character-entities-legacy
+    ¦   +---character-reference-invalid
+    ¦   +---color-convert
+    ¦   +---color-name
+    ¦   +---concat-map
+    ¦   ¦   +---example
+    ¦   ¦   +---test
+    ¦   +---convert-source-map
+    ¦   +---cookie
+    ¦   ¦   +---dist
+    ¦   +---cross-spawn
+    ¦   ¦   +---lib
+    ¦   ¦       +---util
+    ¦   +---csstype
+    ¦   +---damerau-levenshtein
+    ¦   ¦   +---scripts
+    ¦   ¦   +---test
+    ¦   +---data-view-buffer
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---data-view-byte-length
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---data-view-byte-offset
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---debug
+    ¦   ¦   +---src
+    ¦   +---deep-is
+    ¦   ¦   +---example
+    ¦   ¦   +---test
+    ¦   +---define-data-property
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---define-properties
+    ¦   ¦   +---.github
+    ¦   +---doctrine
+    ¦   ¦   +---lib
+    ¦   +---dunder-proto
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---electron-to-chromium
+    ¦   +---emoji-regex
+    ¦   ¦   +---es2015
+    ¦   +---engine.io-client
+    ¦   ¦   +---build
+    ¦   ¦   ¦   +---cjs
+    ¦   ¦   ¦   ¦   +---contrib
+    ¦   ¦   ¦   ¦   +---transports
+    ¦   ¦   ¦   +---esm
+    ¦   ¦   ¦   ¦   +---contrib
+    ¦   ¦   ¦   ¦   +---transports
+    ¦   ¦   ¦   +---esm-debug
+    ¦   ¦   ¦       +---contrib
+    ¦   ¦   ¦       +---transports
+    ¦   ¦   +---dist
+    ¦   ¦   +---node_modules
+    ¦   ¦       +---debug
+    ¦   ¦           +---src
+    ¦   +---engine.io-parser
+    ¦   ¦   +---build
+    ¦   ¦       +---cjs
+    ¦   ¦       ¦   +---contrib
+    ¦   ¦       +---esm
+    ¦   ¦           +---contrib
+    ¦   +---es-abstract
+    ¦   ¦   +---2015
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2016
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2017
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2018
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2019
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2020
+    ¦   ¦   ¦   +---BigInt
+    ¦   ¦   ¦   +---Number
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2021
+    ¦   ¦   ¦   +---BigInt
+    ¦   ¦   ¦   +---Number
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2022
+    ¦   ¦   ¦   +---BigInt
+    ¦   ¦   ¦   +---Number
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2023
+    ¦   ¦   ¦   +---BigInt
+    ¦   ¦   ¦   +---Number
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2024
+    ¦   ¦   ¦   +---BigInt
+    ¦   ¦   ¦   +---Number
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---2025
+    ¦   ¦   ¦   +---BigInt
+    ¦   ¦   ¦   +---Number
+    ¦   ¦   ¦   +---tables
+    ¦   ¦   +---5
+    ¦   ¦   +---helpers
+    ¦   ¦   ¦   +---records
+    ¦   ¦   +---operations
+    ¦   +---es-define-property
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---es-errors
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---es-iterator-helpers
+    ¦   ¦   +---.github
+    ¦   ¦   +---aos
+    ¦   ¦   +---Iterator
+    ¦   ¦   +---Iterator.concat
+    ¦   ¦   +---Iterator.from
+    ¦   ¦   +---Iterator.prototype
+    ¦   ¦   +---Iterator.prototype.constructor
+    ¦   ¦   +---Iterator.prototype.drop
+    ¦   ¦   +---Iterator.prototype.every
+    ¦   ¦   +---Iterator.prototype.filter
+    ¦   ¦   +---Iterator.prototype.find
+    ¦   ¦   +---Iterator.prototype.flatMap
+    ¦   ¦   +---Iterator.prototype.forEach
+    ¦   ¦   +---Iterator.prototype.map
+    ¦   ¦   +---Iterator.prototype.reduce
+    ¦   ¦   +---Iterator.prototype.some
+    ¦   ¦   +---Iterator.prototype.take
+    ¦   ¦   +---Iterator.prototype.toArray
+    ¦   ¦   +---Iterator.zip
+    ¦   ¦   +---Iterator.zipKeyed
+    ¦   ¦   +---IteratorHelperPrototype
+    ¦   ¦   +---test
+    ¦   ¦   ¦   +---helpers
+    ¦   ¦   +---WrapForValidIteratorPrototype
+    ¦   +---es-object-atoms
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---es-set-tostringtag
+    ¦   ¦   +---test
+    ¦   +---es-shim-unscopables
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---es-to-primitive
+    ¦   ¦   +---.github
+    ¦   ¦   +---helpers
+    ¦   ¦   +---test
+    ¦   +---esbuild
+    ¦   ¦   +---bin
+    ¦   ¦   +---lib
+    ¦   +---escalade
+    ¦   ¦   +---dist
+    ¦   ¦   +---sync
+    ¦   +---escape-string-regexp
+    ¦   +---eslint
+    ¦   ¦   +---bin
+    ¦   ¦   +---conf
+    ¦   ¦   +---lib
+    ¦   ¦   ¦   +---cli-engine
+    ¦   ¦   ¦   ¦   +---formatters
+    ¦   ¦   ¦   +---config
+    ¦   ¦   ¦   +---eslint
+    ¦   ¦   ¦   +---languages
+    ¦   ¦   ¦   ¦   +---js
+    ¦   ¦   ¦   ¦       +---source-code
+    ¦   ¦   ¦   ¦           +---token-store
+    ¦   ¦   ¦   +---linter
+    ¦   ¦   ¦   ¦   +---code-path-analysis
+    ¦   ¦   ¦   +---rule-tester
+    ¦   ¦   ¦   +---rules
+    ¦   ¦   ¦   ¦   +---utils
+    ¦   ¦   ¦   ¦       +---unicode
+    ¦   ¦   ¦   +---services
+    ¦   ¦   ¦   +---shared
+    ¦   ¦   ¦   +---types
+    ¦   ¦   +---messages
+    ¦   +---eslint-plugin-json
+    ¦   ¦   +---src
+    ¦   +---eslint-plugin-jsx-a11y
+    ¦   ¦   +---docs
+    ¦   ¦   ¦   +---rules
+    ¦   ¦   +---lib
+    ¦   ¦   ¦   +---configs
+    ¦   ¦   ¦   +---rules
+    ¦   ¦   ¦   +---util
+    ¦   ¦   ¦       +---implicitRoles
+    ¦   ¦   +---__mocks__
+    ¦   ¦   +---__tests__
+    ¦   ¦       +---src
+    ¦   ¦       ¦   +---rules
+    ¦   ¦       ¦   +---util
+    ¦   ¦       ¦       +---implicitRoles
+    ¦   ¦       +---__util__
+    ¦   ¦           +---helpers
+    ¦   +---eslint-plugin-markdown
+    ¦   ¦   +---lib
+    ¦   +---eslint-plugin-react
+    ¦   ¦   +---configs
+    ¦   ¦   +---lib
+    ¦   ¦       +---rules
+    ¦   ¦       +---util
+    ¦   +---eslint-plugin-react-hooks
+    ¦   ¦   +---cjs
+    ¦   +---eslint-plugin-react-refresh
+    ¦   +---eslint-scope
+    ¦   ¦   +---dist
+    ¦   ¦   +---lib
+    ¦   +---eslint-visitor-keys
+    ¦   ¦   +---dist
+    ¦   ¦   +---lib
+    ¦   +---espree
+    ¦   ¦   +---dist
+    ¦   ¦   +---lib
+    ¦   +---esquery
+    ¦   ¦   +---dist
+    ¦   +---esrecurse
+    ¦   +---estraverse
+    ¦   +---esutils
+    ¦   ¦   +---lib
+    ¦   +---fast-deep-equal
+    ¦   ¦   +---es6
+    ¦   +---fast-json-stable-stringify
+    ¦   ¦   +---.github
+    ¦   ¦   +---benchmark
+    ¦   ¦   +---example
+    ¦   ¦   +---test
+    ¦   +---fast-levenshtein
+    ¦   +---fdir
+    ¦   ¦   +---dist
+    ¦   +---file-entry-cache
+    ¦   +---find-up
+    ¦   +---flat-cache
+    ¦   ¦   +---src
+    ¦   +---flatted
+    ¦   ¦   +---cjs
+    ¦   ¦   +---esm
+    ¦   ¦   +---php
+    ¦   ¦   +---python
+    ¦   ¦   +---types
+    ¦   +---for-each
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---function-bind
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---function.prototype.name
+    ¦   ¦   +---.github
+    ¦   ¦   +---helpers
+    ¦   ¦   +---test
+    ¦   +---functions-have-names
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---gensync
+    ¦   ¦   +---test
+    ¦   +---get-intrinsic
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---get-proto
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---get-symbol-description
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---glob-parent
+    ¦   +---globals
+    ¦   +---globalthis
+    ¦   ¦   +---test
+    ¦   +---gopd
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---has-bigints
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---has-flag
+    ¦   +---has-property-descriptors
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---has-proto
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---has-symbols
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   ¦       +---shams
+    ¦   +---has-tostringtag
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   ¦       +---shams
+    ¦   +---hasown
+    ¦   ¦   +---.github
+    ¦   +---ignore
+    ¦   +---import-fresh
+    ¦   +---imurmurhash
+    ¦   +---internal-slot
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-alphabetical
+    ¦   +---is-alphanumerical
+    ¦   +---is-array-buffer
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-async-function
+    ¦   ¦   +---test
+    ¦   +---is-bigint
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-boolean-object
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-callable
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-core-module
+    ¦   ¦   +---test
+    ¦   +---is-data-view
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-date-object
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-decimal
+    ¦   +---is-extglob
+    ¦   +---is-finalizationregistry
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-generator-function
+    ¦   ¦   +---test
+    ¦   +---is-glob
+    ¦   +---is-hexadecimal
+    ¦   +---is-map
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-negative-zero
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-number-object
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-regex
+    ¦   ¦   +---test
+    ¦   +---is-set
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-shared-array-buffer
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-string
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-symbol
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-typed-array
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-weakmap
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-weakref
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---is-weakset
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---isarray
+    ¦   +---isexe
+    ¦   ¦   +---test
+    ¦   +---iterator.prototype
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---js-tokens
+    ¦   +---js-yaml
+    ¦   ¦   +---bin
+    ¦   ¦   +---dist
+    ¦   ¦   +---lib
+    ¦   ¦       +---schema
+    ¦   ¦       +---type
+    ¦   +---jsesc
+    ¦   ¦   +---bin
+    ¦   ¦   +---man
+    ¦   +---json-buffer
+    ¦   ¦   +---test
+    ¦   +---json-schema-traverse
+    ¦   ¦   +---spec
+    ¦   ¦       +---fixtures
+    ¦   +---json-stable-stringify-without-jsonify
+    ¦   ¦   +---example
+    ¦   ¦   +---test
+    ¦   +---json5
+    ¦   ¦   +---dist
+    ¦   ¦   +---lib
+    ¦   +---jsonc-parser
+    ¦   ¦   +---lib
+    ¦   ¦       +---esm
+    ¦   ¦       ¦   +---impl
+    ¦   ¦       +---umd
+    ¦   ¦           +---impl
+    ¦   +---jsx-ast-utils
+    ¦   ¦   +---.github
+    ¦   ¦   +---lib
+    ¦   ¦   ¦   +---values
+    ¦   ¦   ¦       +---expressions
+    ¦   ¦   +---src
+    ¦   ¦   ¦   +---values
+    ¦   ¦   ¦       +---expressions
+    ¦   ¦   +---__tests__
+    ¦   ¦       +---src
+    ¦   +---keyv
+    ¦   ¦   +---src
+    ¦   +---language-subtag-registry
+    ¦   ¦   +---data
+    ¦   ¦       +---json
+    ¦   +---language-tags
+    ¦   ¦   +---lib
+    ¦   +---levn
+    ¦   ¦   +---lib
+    ¦   +---locate-path
+    ¦   +---lodash
+    ¦   ¦   +---fp
+    ¦   +---lodash.merge
+    ¦   +---loose-envify
+    ¦   +---lru-cache
+    ¦   +---math-intrinsics
+    ¦   ¦   +---.github
+    ¦   ¦   +---constants
+    ¦   ¦   +---test
+    ¦   +---mdast-util-from-markdown
+    ¦   ¦   +---dist
+    ¦   ¦   +---lib
+    ¦   ¦   +---types
+    ¦   +---mdast-util-to-string
+    ¦   ¦   +---types
+    ¦   +---micromark
+    ¦   ¦   +---dist
+    ¦   ¦   ¦   +---character
+    ¦   ¦   ¦   +---compile
+    ¦   ¦   ¦   +---constant
+    ¦   ¦   ¦   +---initialize
+    ¦   ¦   ¦   +---tokenize
+    ¦   ¦   ¦   +---util
+    ¦   ¦   +---lib
+    ¦   ¦       +---character
+    ¦   ¦       +---compile
+    ¦   ¦       +---constant
+    ¦   ¦       +---initialize
+    ¦   ¦       +---tokenize
+    ¦   ¦       +---util
+    ¦   +---minimatch
+    ¦   +---monaco-editor
+    ¦   ¦   +---dev
+    ¦   ¦   ¦   +---vs
+    ¦   ¦   ¦       +---base
+    ¦   ¦   ¦       ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---ui
+    ¦   ¦   ¦       ¦   ¦       +---codicons
+    ¦   ¦   ¦       ¦   ¦           +---codicon
+    ¦   ¦   ¦       ¦   +---worker
+    ¦   ¦   ¦       +---basic-languages
+    ¦   ¦   ¦       ¦   +---abap
+    ¦   ¦   ¦       ¦   +---apex
+    ¦   ¦   ¦       ¦   +---azcli
+    ¦   ¦   ¦       ¦   +---bat
+    ¦   ¦   ¦       ¦   +---bicep
+    ¦   ¦   ¦       ¦   +---cameligo
+    ¦   ¦   ¦       ¦   +---clojure
+    ¦   ¦   ¦       ¦   +---coffee
+    ¦   ¦   ¦       ¦   +---cpp
+    ¦   ¦   ¦       ¦   +---csharp
+    ¦   ¦   ¦       ¦   +---csp
+    ¦   ¦   ¦       ¦   +---css
+    ¦   ¦   ¦       ¦   +---cypher
+    ¦   ¦   ¦       ¦   +---dart
+    ¦   ¦   ¦       ¦   +---dockerfile
+    ¦   ¦   ¦       ¦   +---ecl
+    ¦   ¦   ¦       ¦   +---elixir
+    ¦   ¦   ¦       ¦   +---flow9
+    ¦   ¦   ¦       ¦   +---freemarker2
+    ¦   ¦   ¦       ¦   +---fsharp
+    ¦   ¦   ¦       ¦   +---go
+    ¦   ¦   ¦       ¦   +---graphql
+    ¦   ¦   ¦       ¦   +---handlebars
+    ¦   ¦   ¦       ¦   +---hcl
+    ¦   ¦   ¦       ¦   +---html
+    ¦   ¦   ¦       ¦   +---ini
+    ¦   ¦   ¦       ¦   +---java
+    ¦   ¦   ¦       ¦   +---javascript
+    ¦   ¦   ¦       ¦   +---julia
+    ¦   ¦   ¦       ¦   +---kotlin
+    ¦   ¦   ¦       ¦   +---less
+    ¦   ¦   ¦       ¦   +---lexon
+    ¦   ¦   ¦       ¦   +---liquid
+    ¦   ¦   ¦       ¦   +---lua
+    ¦   ¦   ¦       ¦   +---m3
+    ¦   ¦   ¦       ¦   +---markdown
+    ¦   ¦   ¦       ¦   +---mdx
+    ¦   ¦   ¦       ¦   +---mips
+    ¦   ¦   ¦       ¦   +---msdax
+    ¦   ¦   ¦       ¦   +---mysql
+    ¦   ¦   ¦       ¦   +---objective-c
+    ¦   ¦   ¦       ¦   +---pascal
+    ¦   ¦   ¦       ¦   +---pascaligo
+    ¦   ¦   ¦       ¦   +---perl
+    ¦   ¦   ¦       ¦   +---pgsql
+    ¦   ¦   ¦       ¦   +---php
+    ¦   ¦   ¦       ¦   +---pla
+    ¦   ¦   ¦       ¦   +---postiats
+    ¦   ¦   ¦       ¦   +---powerquery
+    ¦   ¦   ¦       ¦   +---powershell
+    ¦   ¦   ¦       ¦   +---protobuf
+    ¦   ¦   ¦       ¦   +---pug
+    ¦   ¦   ¦       ¦   +---python
+    ¦   ¦   ¦       ¦   +---qsharp
+    ¦   ¦   ¦       ¦   +---r
+    ¦   ¦   ¦       ¦   +---razor
+    ¦   ¦   ¦       ¦   +---redis
+    ¦   ¦   ¦       ¦   +---redshift
+    ¦   ¦   ¦       ¦   +---restructuredtext
+    ¦   ¦   ¦       ¦   +---ruby
+    ¦   ¦   ¦       ¦   +---rust
+    ¦   ¦   ¦       ¦   +---sb
+    ¦   ¦   ¦       ¦   +---scala
+    ¦   ¦   ¦       ¦   +---scheme
+    ¦   ¦   ¦       ¦   +---scss
+    ¦   ¦   ¦       ¦   +---shell
+    ¦   ¦   ¦       ¦   +---solidity
+    ¦   ¦   ¦       ¦   +---sophia
+    ¦   ¦   ¦       ¦   +---sparql
+    ¦   ¦   ¦       ¦   +---sql
+    ¦   ¦   ¦       ¦   +---st
+    ¦   ¦   ¦       ¦   +---swift
+    ¦   ¦   ¦       ¦   +---systemverilog
+    ¦   ¦   ¦       ¦   +---tcl
+    ¦   ¦   ¦       ¦   +---twig
+    ¦   ¦   ¦       ¦   +---typescript
+    ¦   ¦   ¦       ¦   +---typespec
+    ¦   ¦   ¦       ¦   +---vb
+    ¦   ¦   ¦       ¦   +---wgsl
+    ¦   ¦   ¦       ¦   +---xml
+    ¦   ¦   ¦       ¦   +---yaml
+    ¦   ¦   ¦       +---editor
+    ¦   ¦   ¦       +---language
+    ¦   ¦   ¦           +---css
+    ¦   ¦   ¦           +---html
+    ¦   ¦   ¦           +---json
+    ¦   ¦   ¦           +---typescript
+    ¦   ¦   +---esm
+    ¦   ¦   ¦   +---vs
+    ¦   ¦   ¦       +---base
+    ¦   ¦   ¦       ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---dompurify
+    ¦   ¦   ¦       ¦   ¦   +---ui
+    ¦   ¦   ¦       ¦   ¦       +---actionbar
+    ¦   ¦   ¦       ¦   ¦       +---aria
+    ¦   ¦   ¦       ¦   ¦       +---breadcrumbs
+    ¦   ¦   ¦       ¦   ¦       +---button
+    ¦   ¦   ¦       ¦   ¦       +---codicons
+    ¦   ¦   ¦       ¦   ¦       ¦   +---codicon
+    ¦   ¦   ¦       ¦   ¦       +---contextview
+    ¦   ¦   ¦       ¦   ¦       +---countBadge
+    ¦   ¦   ¦       ¦   ¦       +---dialog
+    ¦   ¦   ¦       ¦   ¦       +---dropdown
+    ¦   ¦   ¦       ¦   ¦       +---findinput
+    ¦   ¦   ¦       ¦   ¦       +---highlightedlabel
+    ¦   ¦   ¦       ¦   ¦       +---hover
+    ¦   ¦   ¦       ¦   ¦       +---iconLabel
+    ¦   ¦   ¦       ¦   ¦       +---inputbox
+    ¦   ¦   ¦       ¦   ¦       +---keybindingLabel
+    ¦   ¦   ¦       ¦   ¦       +---list
+    ¦   ¦   ¦       ¦   ¦       +---menu
+    ¦   ¦   ¦       ¦   ¦       +---mouseCursor
+    ¦   ¦   ¦       ¦   ¦       +---progressbar
+    ¦   ¦   ¦       ¦   ¦       +---radio
+    ¦   ¦   ¦       ¦   ¦       +---resizable
+    ¦   ¦   ¦       ¦   ¦       +---sash
+    ¦   ¦   ¦       ¦   ¦       +---scrollbar
+    ¦   ¦   ¦       ¦   ¦       ¦   +---media
+    ¦   ¦   ¦       ¦   ¦       +---selectBox
+    ¦   ¦   ¦       ¦   ¦       +---splitview
+    ¦   ¦   ¦       ¦   ¦       +---table
+    ¦   ¦   ¦       ¦   ¦       +---toggle
+    ¦   ¦   ¦       ¦   ¦       +---toolbar
+    ¦   ¦   ¦       ¦   ¦       +---tree
+    ¦   ¦   ¦       ¦   ¦           +---media
+    ¦   ¦   ¦       ¦   +---common
+    ¦   ¦   ¦       ¦   ¦   +---diff
+    ¦   ¦   ¦       ¦   ¦   +---marked
+    ¦   ¦   ¦       ¦   ¦   +---naturalLanguage
+    ¦   ¦   ¦       ¦   ¦   +---observableInternal
+    ¦   ¦   ¦       ¦   ¦   +---worker
+    ¦   ¦   ¦       ¦   +---parts
+    ¦   ¦   ¦       ¦       +---storage
+    ¦   ¦   ¦       ¦           +---common
+    ¦   ¦   ¦       +---basic-languages
+    ¦   ¦   ¦       ¦   +---abap
+    ¦   ¦   ¦       ¦   +---apex
+    ¦   ¦   ¦       ¦   +---azcli
+    ¦   ¦   ¦       ¦   +---bat
+    ¦   ¦   ¦       ¦   +---bicep
+    ¦   ¦   ¦       ¦   +---cameligo
+    ¦   ¦   ¦       ¦   +---clojure
+    ¦   ¦   ¦       ¦   +---coffee
+    ¦   ¦   ¦       ¦   +---cpp
+    ¦   ¦   ¦       ¦   +---csharp
+    ¦   ¦   ¦       ¦   +---csp
+    ¦   ¦   ¦       ¦   +---css
+    ¦   ¦   ¦       ¦   +---cypher
+    ¦   ¦   ¦       ¦   +---dart
+    ¦   ¦   ¦       ¦   +---dockerfile
+    ¦   ¦   ¦       ¦   +---ecl
+    ¦   ¦   ¦       ¦   +---elixir
+    ¦   ¦   ¦       ¦   +---flow9
+    ¦   ¦   ¦       ¦   +---freemarker2
+    ¦   ¦   ¦       ¦   +---fsharp
+    ¦   ¦   ¦       ¦   +---go
+    ¦   ¦   ¦       ¦   +---graphql
+    ¦   ¦   ¦       ¦   +---handlebars
+    ¦   ¦   ¦       ¦   +---hcl
+    ¦   ¦   ¦       ¦   +---html
+    ¦   ¦   ¦       ¦   +---ini
+    ¦   ¦   ¦       ¦   +---java
+    ¦   ¦   ¦       ¦   +---javascript
+    ¦   ¦   ¦       ¦   +---julia
+    ¦   ¦   ¦       ¦   +---kotlin
+    ¦   ¦   ¦       ¦   +---less
+    ¦   ¦   ¦       ¦   +---lexon
+    ¦   ¦   ¦       ¦   +---liquid
+    ¦   ¦   ¦       ¦   +---lua
+    ¦   ¦   ¦       ¦   +---m3
+    ¦   ¦   ¦       ¦   +---markdown
+    ¦   ¦   ¦       ¦   +---mdx
+    ¦   ¦   ¦       ¦   +---mips
+    ¦   ¦   ¦       ¦   +---msdax
+    ¦   ¦   ¦       ¦   +---mysql
+    ¦   ¦   ¦       ¦   +---objective-c
+    ¦   ¦   ¦       ¦   +---pascal
+    ¦   ¦   ¦       ¦   +---pascaligo
+    ¦   ¦   ¦       ¦   +---perl
+    ¦   ¦   ¦       ¦   +---pgsql
+    ¦   ¦   ¦       ¦   +---php
+    ¦   ¦   ¦       ¦   +---pla
+    ¦   ¦   ¦       ¦   +---postiats
+    ¦   ¦   ¦       ¦   +---powerquery
+    ¦   ¦   ¦       ¦   +---powershell
+    ¦   ¦   ¦       ¦   +---protobuf
+    ¦   ¦   ¦       ¦   +---pug
+    ¦   ¦   ¦       ¦   +---python
+    ¦   ¦   ¦       ¦   +---qsharp
+    ¦   ¦   ¦       ¦   +---r
+    ¦   ¦   ¦       ¦   +---razor
+    ¦   ¦   ¦       ¦   +---redis
+    ¦   ¦   ¦       ¦   +---redshift
+    ¦   ¦   ¦       ¦   +---restructuredtext
+    ¦   ¦   ¦       ¦   +---ruby
+    ¦   ¦   ¦       ¦   +---rust
+    ¦   ¦   ¦       ¦   +---sb
+    ¦   ¦   ¦       ¦   +---scala
+    ¦   ¦   ¦       ¦   +---scheme
+    ¦   ¦   ¦       ¦   +---scss
+    ¦   ¦   ¦       ¦   +---shell
+    ¦   ¦   ¦       ¦   +---solidity
+    ¦   ¦   ¦       ¦   +---sophia
+    ¦   ¦   ¦       ¦   +---sparql
+    ¦   ¦   ¦       ¦   +---sql
+    ¦   ¦   ¦       ¦   +---st
+    ¦   ¦   ¦       ¦   +---swift
+    ¦   ¦   ¦       ¦   +---systemverilog
+    ¦   ¦   ¦       ¦   +---tcl
+    ¦   ¦   ¦       ¦   +---twig
+    ¦   ¦   ¦       ¦   +---typescript
+    ¦   ¦   ¦       ¦   +---typespec
+    ¦   ¦   ¦       ¦   +---vb
+    ¦   ¦   ¦       ¦   +---wgsl
+    ¦   ¦   ¦       ¦   +---xml
+    ¦   ¦   ¦       ¦   +---yaml
+    ¦   ¦   ¦       +---editor
+    ¦   ¦   ¦       ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---config
+    ¦   ¦   ¦       ¦   ¦   +---controller
+    ¦   ¦   ¦       ¦   ¦   +---services
+    ¦   ¦   ¦       ¦   ¦   ¦   +---hoverService
+    ¦   ¦   ¦       ¦   ¦   +---view
+    ¦   ¦   ¦       ¦   ¦   +---viewParts
+    ¦   ¦   ¦       ¦   ¦   ¦   +---blockDecorations
+    ¦   ¦   ¦       ¦   ¦   ¦   +---contentWidgets
+    ¦   ¦   ¦       ¦   ¦   ¦   +---currentLineHighlight
+    ¦   ¦   ¦       ¦   ¦   ¦   +---decorations
+    ¦   ¦   ¦       ¦   ¦   ¦   +---editorScrollbar
+    ¦   ¦   ¦       ¦   ¦   ¦   +---glyphMargin
+    ¦   ¦   ¦       ¦   ¦   ¦   +---indentGuides
+    ¦   ¦   ¦       ¦   ¦   ¦   +---lineNumbers
+    ¦   ¦   ¦       ¦   ¦   ¦   +---lines
+    ¦   ¦   ¦       ¦   ¦   ¦   +---linesDecorations
+    ¦   ¦   ¦       ¦   ¦   ¦   +---margin
+    ¦   ¦   ¦       ¦   ¦   ¦   +---marginDecorations
+    ¦   ¦   ¦       ¦   ¦   ¦   +---minimap
+    ¦   ¦   ¦       ¦   ¦   ¦   +---overlayWidgets
+    ¦   ¦   ¦       ¦   ¦   ¦   +---overviewRuler
+    ¦   ¦   ¦       ¦   ¦   ¦   +---rulers
+    ¦   ¦   ¦       ¦   ¦   ¦   +---scrollDecoration
+    ¦   ¦   ¦       ¦   ¦   ¦   +---selections
+    ¦   ¦   ¦       ¦   ¦   ¦   +---viewCursors
+    ¦   ¦   ¦       ¦   ¦   ¦   +---viewZones
+    ¦   ¦   ¦       ¦   ¦   ¦   +---whitespace
+    ¦   ¦   ¦       ¦   ¦   +---widget
+    ¦   ¦   ¦       ¦   ¦       +---codeEditor
+    ¦   ¦   ¦       ¦   ¦       +---diffEditor
+    ¦   ¦   ¦       ¦   ¦       ¦   +---components
+    ¦   ¦   ¦       ¦   ¦       ¦   ¦   +---diffEditorViewZones
+    ¦   ¦   ¦       ¦   ¦       ¦   +---features
+    ¦   ¦   ¦       ¦   ¦       ¦   +---utils
+    ¦   ¦   ¦       ¦   ¦       +---markdownRenderer
+    ¦   ¦   ¦       ¦   ¦       ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦       +---multiDiffEditor
+    ¦   ¦   ¦       ¦   +---common
+    ¦   ¦   ¦       ¦   ¦   +---commands
+    ¦   ¦   ¦       ¦   ¦   +---config
+    ¦   ¦   ¦       ¦   ¦   +---core
+    ¦   ¦   ¦       ¦   ¦   +---cursor
+    ¦   ¦   ¦       ¦   ¦   +---diff
+    ¦   ¦   ¦       ¦   ¦   ¦   +---defaultLinesDiffComputer
+    ¦   ¦   ¦       ¦   ¦   ¦       +---algorithms
+    ¦   ¦   ¦       ¦   ¦   +---languages
+    ¦   ¦   ¦       ¦   ¦   ¦   +---supports
+    ¦   ¦   ¦       ¦   ¦   +---model
+    ¦   ¦   ¦       ¦   ¦   ¦   +---bracketPairsTextModelPart
+    ¦   ¦   ¦       ¦   ¦   ¦   ¦   +---bracketPairsTree
+    ¦   ¦   ¦       ¦   ¦   ¦   +---pieceTreeTextBuffer
+    ¦   ¦   ¦       ¦   ¦   +---services
+    ¦   ¦   ¦       ¦   ¦   ¦   +---textModelSync
+    ¦   ¦   ¦       ¦   ¦   +---standalone
+    ¦   ¦   ¦       ¦   ¦   +---tokens
+    ¦   ¦   ¦       ¦   ¦   +---viewLayout
+    ¦   ¦   ¦       ¦   ¦   +---viewModel
+    ¦   ¦   ¦       ¦   +---contrib
+    ¦   ¦   ¦       ¦   ¦   +---anchorSelect
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---bracketMatching
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---caretOperations
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---clipboard
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---codeAction
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   ¦   +---common
+    ¦   ¦   ¦       ¦   ¦   +---codelens
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---colorPicker
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---comment
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---contextmenu
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---cursorUndo
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---diffEditorBreadcrumbs
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---dnd
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---documentSymbols
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---dropOrPasteInto
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---editorState
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---find
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---folding
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---fontZoom
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---format
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---gotoError
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   ¦       +---media
+    ¦   ¦   ¦       ¦   ¦   +---gotoSymbol
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   ¦       +---link
+    ¦   ¦   ¦       ¦   ¦   ¦       +---peek
+    ¦   ¦   ¦       ¦   ¦   +---hover
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---indentation
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   ¦   +---common
+    ¦   ¦   ¦       ¦   ¦   +---inlayHints
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---inlineCompletions
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   ¦       +---controller
+    ¦   ¦   ¦       ¦   ¦   ¦       +---hintsWidget
+    ¦   ¦   ¦       ¦   ¦   ¦       +---model
+    ¦   ¦   ¦       ¦   ¦   ¦       +---view
+    ¦   ¦   ¦       ¦   ¦   +---inlineEdit
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---inlineEdits
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---inlineProgress
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---inPlaceReplace
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---lineSelection
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---linesOperations
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---linkedEditing
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---links
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---longLinesHelper
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---message
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---multicursor
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---parameterHints
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---peekView
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   ¦       +---media
+    ¦   ¦   ¦       ¦   ¦   +---placeholderText
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---quickAccess
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---readOnlyMessage
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---rename
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---sectionHeaders
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---semanticTokens
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   ¦   +---common
+    ¦   ¦   ¦       ¦   ¦   +---smartSelect
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---snippet
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---stickyScroll
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---suggest
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   ¦       +---media
+    ¦   ¦   ¦       ¦   ¦   +---symbolIcons
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---toggleTabFocusMode
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---tokenization
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---unicodeHighlighter
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---unusualLineTerminators
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---wordHighlighter
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---wordOperations
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---wordPartOperations
+    ¦   ¦   ¦       ¦   ¦   ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---zoneWidget
+    ¦   ¦   ¦       ¦   ¦       +---browser
+    ¦   ¦   ¦       ¦   +---standalone
+    ¦   ¦   ¦       ¦       +---browser
+    ¦   ¦   ¦       ¦       ¦   +---inspectTokens
+    ¦   ¦   ¦       ¦       ¦   +---iPadShowKeyboard
+    ¦   ¦   ¦       ¦       ¦   +---quickAccess
+    ¦   ¦   ¦       ¦       ¦   +---quickInput
+    ¦   ¦   ¦       ¦       ¦   +---referenceSearch
+    ¦   ¦   ¦       ¦       ¦   +---toggleHighContrast
+    ¦   ¦   ¦       ¦       +---common
+    ¦   ¦   ¦       ¦           +---monarch
+    ¦   ¦   ¦       +---language
+    ¦   ¦   ¦       ¦   +---css
+    ¦   ¦   ¦       ¦   +---html
+    ¦   ¦   ¦       ¦   +---json
+    ¦   ¦   ¦       ¦   +---typescript
+    ¦   ¦   ¦       +---platform
+    ¦   ¦   ¦           +---accessibility
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---accessibilitySignal
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           +---action
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---actions
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---actionWidget
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---clipboard
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---commands
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---configuration
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---contextkey
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---contextview
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           +---dialogs
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---dnd
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           +---editor
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---environment
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---extensions
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---files
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---history
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           +---hover
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           +---instantiation
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---jsonschemas
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---keybinding
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---label
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---layout
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           +---list
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           +---log
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---markers
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---notification
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---observable
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---opener
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---policy
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---progress
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---quickinput
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           ¦   ¦   +---media
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---registry
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---severityIcon
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           ¦       +---media
+    ¦   ¦   ¦           +---storage
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---telemetry
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---theme
+    ¦   ¦   ¦           ¦   +---browser
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           ¦       +---colors
+    ¦   ¦   ¦           +---undoRedo
+    ¦   ¦   ¦           ¦   +---common
+    ¦   ¦   ¦           +---workspace
+    ¦   ¦   ¦               +---common
+    ¦   ¦   +---min
+    ¦   ¦   ¦   +---vs
+    ¦   ¦   ¦       +---base
+    ¦   ¦   ¦       ¦   +---browser
+    ¦   ¦   ¦       ¦   ¦   +---ui
+    ¦   ¦   ¦       ¦   ¦       +---codicons
+    ¦   ¦   ¦       ¦   ¦           +---codicon
+    ¦   ¦   ¦       ¦   +---worker
+    ¦   ¦   ¦       +---basic-languages
+    ¦   ¦   ¦       ¦   +---abap
+    ¦   ¦   ¦       ¦   +---apex
+    ¦   ¦   ¦       ¦   +---azcli
+    ¦   ¦   ¦       ¦   +---bat
+    ¦   ¦   ¦       ¦   +---bicep
+    ¦   ¦   ¦       ¦   +---cameligo
+    ¦   ¦   ¦       ¦   +---clojure
+    ¦   ¦   ¦       ¦   +---coffee
+    ¦   ¦   ¦       ¦   +---cpp
+    ¦   ¦   ¦       ¦   +---csharp
+    ¦   ¦   ¦       ¦   +---csp
+    ¦   ¦   ¦       ¦   +---css
+    ¦   ¦   ¦       ¦   +---cypher
+    ¦   ¦   ¦       ¦   +---dart
+    ¦   ¦   ¦       ¦   +---dockerfile
+    ¦   ¦   ¦       ¦   +---ecl
+    ¦   ¦   ¦       ¦   +---elixir
+    ¦   ¦   ¦       ¦   +---flow9
+    ¦   ¦   ¦       ¦   +---freemarker2
+    ¦   ¦   ¦       ¦   +---fsharp
+    ¦   ¦   ¦       ¦   +---go
+    ¦   ¦   ¦       ¦   +---graphql
+    ¦   ¦   ¦       ¦   +---handlebars
+    ¦   ¦   ¦       ¦   +---hcl
+    ¦   ¦   ¦       ¦   +---html
+    ¦   ¦   ¦       ¦   +---ini
+    ¦   ¦   ¦       ¦   +---java
+    ¦   ¦   ¦       ¦   +---javascript
+    ¦   ¦   ¦       ¦   +---julia
+    ¦   ¦   ¦       ¦   +---kotlin
+    ¦   ¦   ¦       ¦   +---less
+    ¦   ¦   ¦       ¦   +---lexon
+    ¦   ¦   ¦       ¦   +---liquid
+    ¦   ¦   ¦       ¦   +---lua
+    ¦   ¦   ¦       ¦   +---m3
+    ¦   ¦   ¦       ¦   +---markdown
+    ¦   ¦   ¦       ¦   +---mdx
+    ¦   ¦   ¦       ¦   +---mips
+    ¦   ¦   ¦       ¦   +---msdax
+    ¦   ¦   ¦       ¦   +---mysql
+    ¦   ¦   ¦       ¦   +---objective-c
+    ¦   ¦   ¦       ¦   +---pascal
+    ¦   ¦   ¦       ¦   +---pascaligo
+    ¦   ¦   ¦       ¦   +---perl
+    ¦   ¦   ¦       ¦   +---pgsql
+    ¦   ¦   ¦       ¦   +---php
+    ¦   ¦   ¦       ¦   +---pla
+    ¦   ¦   ¦       ¦   +---postiats
+    ¦   ¦   ¦       ¦   +---powerquery
+    ¦   ¦   ¦       ¦   +---powershell
+    ¦   ¦   ¦       ¦   +---protobuf
+    ¦   ¦   ¦       ¦   +---pug
+    ¦   ¦   ¦       ¦   +---python
+    ¦   ¦   ¦       ¦   +---qsharp
+    ¦   ¦   ¦       ¦   +---r
+    ¦   ¦   ¦       ¦   +---razor
+    ¦   ¦   ¦       ¦   +---redis
+    ¦   ¦   ¦       ¦   +---redshift
+    ¦   ¦   ¦       ¦   +---restructuredtext
+    ¦   ¦   ¦       ¦   +---ruby
+    ¦   ¦   ¦       ¦   +---rust
+    ¦   ¦   ¦       ¦   +---sb
+    ¦   ¦   ¦       ¦   +---scala
+    ¦   ¦   ¦       ¦   +---scheme
+    ¦   ¦   ¦       ¦   +---scss
+    ¦   ¦   ¦       ¦   +---shell
+    ¦   ¦   ¦       ¦   +---solidity
+    ¦   ¦   ¦       ¦   +---sophia
+    ¦   ¦   ¦       ¦   +---sparql
+    ¦   ¦   ¦       ¦   +---sql
+    ¦   ¦   ¦       ¦   +---st
+    ¦   ¦   ¦       ¦   +---swift
+    ¦   ¦   ¦       ¦   +---systemverilog
+    ¦   ¦   ¦       ¦   +---tcl
+    ¦   ¦   ¦       ¦   +---twig
+    ¦   ¦   ¦       ¦   +---typescript
+    ¦   ¦   ¦       ¦   +---typespec
+    ¦   ¦   ¦       ¦   +---vb
+    ¦   ¦   ¦       ¦   +---wgsl
+    ¦   ¦   ¦       ¦   +---xml
+    ¦   ¦   ¦       ¦   +---yaml
+    ¦   ¦   ¦       +---editor
+    ¦   ¦   ¦       +---language
+    ¦   ¦   ¦           +---css
+    ¦   ¦   ¦           +---html
+    ¦   ¦   ¦           +---json
+    ¦   ¦   ¦           +---typescript
+    ¦   ¦   +---min-maps
+    ¦   ¦       +---vs
+    ¦   ¦           +---base
+    ¦   ¦           ¦   +---worker
+    ¦   ¦           +---editor
+    ¦   +---ms
+    ¦   +---nanoid
+    ¦   ¦   +---async
+    ¦   ¦   +---bin
+    ¦   ¦   +---non-secure
+    ¦   ¦   +---url-alphabet
+    ¦   +---natural-compare
+    ¦   +---node-releases
+    ¦   ¦   +---data
+    ¦   ¦       +---processed
+    ¦   ¦       +---release-schedule
+    ¦   +---object-assign
+    ¦   +---object-inspect
+    ¦   ¦   +---.github
+    ¦   ¦   +---example
+    ¦   ¦   +---test
+    ¦   ¦       +---browser
+    ¦   +---object-keys
+    ¦   ¦   +---test
+    ¦   +---object.assign
+    ¦   ¦   +---.github
+    ¦   ¦   +---dist
+    ¦   ¦   +---test
+    ¦   +---object.entries
+    ¦   ¦   +---test
+    ¦   +---object.fromentries
+    ¦   ¦   +---test
+    ¦   +---object.values
+    ¦   ¦   +---test
+    ¦   +---optionator
+    ¦   ¦   +---lib
+    ¦   +---own-keys
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---p-limit
+    ¦   +---p-locate
+    ¦   +---parent-module
+    ¦   +---parse-entities
+    ¦   ¦   +---types
+    ¦   +---path-exists
+    ¦   +---path-key
+    ¦   +---path-parse
+    ¦   +---picocolors
+    ¦   +---picomatch
+    ¦   ¦   +---lib
+    ¦   +---possible-typed-array-names
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---postcss
+    ¦   ¦   +---lib
+    ¦   +---prelude-ls
+    ¦   ¦   +---lib
+    ¦   +---prop-types
+    ¦   ¦   +---lib
+    ¦   +---punycode
+    ¦   +---react
+    ¦   ¦   +---cjs
+    ¦   +---react-dom
+    ¦   ¦   +---cjs
+    ¦   +---react-is
+    ¦   ¦   +---cjs
+    ¦   ¦   +---umd
+    ¦   +---react-refresh
+    ¦   ¦   +---cjs
+    ¦   +---react-router
+    ¦   ¦   +---dist
+    ¦   ¦       +---development
+    ¦   ¦       ¦   +---lib
+    ¦   ¦       ¦       +---types
+    ¦   ¦       +---production
+    ¦   ¦           +---lib
+    ¦   ¦               +---types
+    ¦   +---react-router-dom
+    ¦   ¦   +---dist
+    ¦   +---reflect.getprototypeof
+    ¦   ¦   +---test
+    ¦   +---regexp.prototype.flags
+    ¦   ¦   +---test
+    ¦   +---resolve
+    ¦   ¦   +---.github
+    ¦   ¦   +---bin
+    ¦   ¦   +---example
+    ¦   ¦   +---lib
+    ¦   ¦   +---test
+    ¦   ¦       +---dotdot
+    ¦   ¦       ¦   +---abc
+    ¦   ¦       +---module_dir
+    ¦   ¦       ¦   +---xmodules
+    ¦   ¦       ¦   ¦   +---aaa
+    ¦   ¦       ¦   +---ymodules
+    ¦   ¦       ¦   ¦   +---aaa
+    ¦   ¦       ¦   +---zmodules
+    ¦   ¦       ¦       +---bbb
+    ¦   ¦       +---node_path
+    ¦   ¦       ¦   +---x
+    ¦   ¦       ¦   ¦   +---aaa
+    ¦   ¦       ¦   ¦   +---ccc
+    ¦   ¦       ¦   +---y
+    ¦   ¦       ¦       +---bbb
+    ¦   ¦       ¦       +---ccc
+    ¦   ¦       +---pathfilter
+    ¦   ¦       ¦   +---deep_ref
+    ¦   ¦       +---precedence
+    ¦   ¦       ¦   +---aaa
+    ¦   ¦       ¦   +---bbb
+    ¦   ¦       +---resolver
+    ¦   ¦       ¦   +---baz
+    ¦   ¦       ¦   +---browser_field
+    ¦   ¦       ¦   +---dot_main
+    ¦   ¦       ¦   +---dot_slash_main
+    ¦   ¦       ¦   +---empty_main
+    ¦   ¦       ¦   +---false_main
+    ¦   ¦       ¦   +---incorrect_main
+    ¦   ¦       ¦   +---invalid_main
+    ¦   ¦       ¦   +---missing_index
+    ¦   ¦       ¦   +---missing_main
+    ¦   ¦       ¦   +---multirepo
+    ¦   ¦       ¦   ¦   +---packages
+    ¦   ¦       ¦   ¦       +---package-a
+    ¦   ¦       ¦   ¦       +---package-b
+    ¦   ¦       ¦   +---nested_symlinks
+    ¦   ¦       ¦   ¦   +---mylib
+    ¦   ¦       ¦   +---null_main
+    ¦   ¦       ¦   +---other_path
+    ¦   ¦       ¦   ¦   +---lib
+    ¦   ¦       ¦   +---quux
+    ¦   ¦       ¦   ¦   +---foo
+    ¦   ¦       ¦   +---same_names
+    ¦   ¦       ¦   ¦   +---foo
+    ¦   ¦       ¦   +---symlinked
+    ¦   ¦       ¦   ¦   +---package
+    ¦   ¦       ¦   ¦   +---_
+    ¦   ¦       ¦   ¦       +---node_modules
+    ¦   ¦       ¦   ¦       +---symlink_target
+    ¦   ¦       ¦   +---without_basedir
+    ¦   ¦       +---shadowed_core
+    ¦   ¦           +---node_modules
+    ¦   ¦               +---util
+    ¦   +---resolve-from
+    ¦   +---rollup
+    ¦   ¦   +---dist
+    ¦   ¦       +---bin
+    ¦   ¦       +---es
+    ¦   ¦       ¦   +---shared
+    ¦   ¦       +---shared
+    ¦   +---safe-array-concat
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---safe-push-apply
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---safe-regex-test
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---scheduler
+    ¦   ¦   +---cjs
+    ¦   +---semver
+    ¦   ¦   +---bin
+    ¦   +---set-cookie-parser
+    ¦   ¦   +---lib
+    ¦   +---set-function-length
+    ¦   ¦   +---.github
+    ¦   +---set-function-name
+    ¦   ¦   +---.github
+    ¦   +---set-proto
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---shebang-command
+    ¦   +---shebang-regex
+    ¦   +---side-channel
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---side-channel-list
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---side-channel-map
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---side-channel-weakmap
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---socket.io-client
+    ¦   ¦   +---build
+    ¦   ¦   ¦   +---cjs
+    ¦   ¦   ¦   ¦   +---contrib
+    ¦   ¦   ¦   +---esm
+    ¦   ¦   ¦   ¦   +---contrib
+    ¦   ¦   ¦   +---esm-debug
+    ¦   ¦   ¦       +---contrib
+    ¦   ¦   +---dist
+    ¦   ¦   +---node_modules
+    ¦   ¦       +---debug
+    ¦   ¦           +---src
+    ¦   +---socket.io-parser
+    ¦   ¦   +---build
+    ¦   ¦   ¦   +---cjs
+    ¦   ¦   ¦   +---esm
+    ¦   ¦   ¦   +---esm-debug
+    ¦   ¦   +---node_modules
+    ¦   ¦       +---debug
+    ¦   ¦           +---src
+    ¦   +---source-map-js
+    ¦   ¦   +---lib
+    ¦   +---state-local
+    ¦   ¦   +---lib
+    ¦   ¦       +---cjs
+    ¦   ¦       +---es
+    ¦   ¦       +---umd
+    ¦   +---stop-iteration-iterator
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---string.prototype.includes
+    ¦   ¦   +---.github
+    ¦   ¦   ¦   +---workflows
+    ¦   ¦   +---tests
+    ¦   +---string.prototype.matchall
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---string.prototype.repeat
+    ¦   ¦   +---tests
+    ¦   +---string.prototype.trim
+    ¦   ¦   +---test
+    ¦   +---string.prototype.trimend
+    ¦   ¦   +---test
+    ¦   +---string.prototype.trimstart
+    ¦   ¦   +---test
+    ¦   +---strip-json-comments
+    ¦   +---supports-color
+    ¦   +---supports-preserve-symlinks-flag
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---tinyglobby
+    ¦   ¦   +---dist
+    ¦   +---type-check
+    ¦   ¦   +---lib
+    ¦   +---typed-array-buffer
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---typed-array-byte-length
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---typed-array-byte-offset
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---typed-array-length
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---unbox-primitive
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---unist-util-stringify-position
+    ¦   ¦   +---types
+    ¦   +---update-browserslist-db
+    ¦   +---uri-js
+    ¦   ¦   +---dist
+    ¦   ¦       +---es5
+    ¦   ¦       +---esnext
+    ¦   ¦           +---schemes
+    ¦   +---uuid
+    ¦   ¦   +---dist
+    ¦   ¦       +---cjs
+    ¦   ¦       +---cjs-browser
+    ¦   ¦       +---esm
+    ¦   ¦       ¦   +---bin
+    ¦   ¦       +---esm-browser
+    ¦   +---vite
+    ¦   ¦   +---bin
+    ¦   ¦   +---dist
+    ¦   ¦   ¦   +---client
+    ¦   ¦   ¦   +---node
+    ¦   ¦   ¦       +---chunks
+    ¦   ¦   +---misc
+    ¦   ¦   +---types
+    ¦   ¦       +---internal
+    ¦   +---vscode-json-languageservice
+    ¦   ¦   +---lib
+    ¦   ¦       +---esm
+    ¦   ¦       ¦   +---parser
+    ¦   ¦       ¦   +---services
+    ¦   ¦       ¦   +---utils
+    ¦   ¦       +---umd
+    ¦   ¦           +---parser
+    ¦   ¦           +---services
+    ¦   ¦           +---utils
+    ¦   +---vscode-languageserver-textdocument
+    ¦   ¦   +---lib
+    ¦   ¦       +---esm
+    ¦   ¦       +---umd
+    ¦   +---vscode-languageserver-types
+    ¦   ¦   +---lib
+    ¦   ¦       +---esm
+    ¦   ¦       +---umd
+    ¦   +---vscode-nls
+    ¦   ¦   +---lib
+    ¦   ¦       +---browser
+    ¦   ¦       +---common
+    ¦   ¦       +---node
+    ¦   ¦           +---test
+    ¦   +---vscode-uri
+    ¦   ¦   +---lib
+    ¦   ¦       +---esm
+    ¦   ¦       +---umd
+    ¦   +---which
+    ¦   ¦   +---bin
+    ¦   +---which-boxed-primitive
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---which-builtin-type
+    ¦   ¦   +---test
+    ¦   +---which-collection
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---which-typed-array
+    ¦   ¦   +---.github
+    ¦   ¦   +---test
+    ¦   +---word-wrap
+    ¦   +---ws
+    ¦   ¦   +---lib
+    ¦   +---xmlhttprequest-ssl
+    ¦   ¦   +---lib
+    ¦   +---yallist
+    ¦   +---yocto-queue
+    +---public
+    +---src
+        +---assets
+        +---components
+        +---Hooks
+        +---pages
+        +---styles
+        +---utils

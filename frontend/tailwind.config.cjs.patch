@@ -1,0 +1,26 @@
+<<<<<<<
+      colors: {
+        bg: {
+          DEFAULT: "#050509",
+          subtle: "#080810",
+          panel: "#0c0c14",
+        },
+      },
+=======
+      colors: {
+        bg: {
+          DEFAULT: "#000000",
+          subtle: "#222222",
+          panel: "#121212",
+        },
+        primary: {
+          DEFAULT: "#ffffff",
+          light: "#cccccc",
+          dark: "#999999"
+        },
+        text: {
+          DEFAULT: "#ffffff",
+          subtle: "#bbbbbb",
+          muted: "#888888",
+        },
+      },
