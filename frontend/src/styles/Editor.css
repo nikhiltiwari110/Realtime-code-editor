@@ -676,6 +676,9 @@
   flex: 1;
   overflow: hidden;
   animation: slideUp 0.8s ease-out 0.3s both;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  padding-right: 0;
 }
 
 .editor-wrapper {
@@ -1568,6 +1571,17 @@
 /* ===== CHAT PANEL LAYOUT ===== */
 .editor-container {
   padding-right: 320px; /* Space for modern chat panel */
+  transition: padding-right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.editor-container.chat-hidden {
+  padding-right: 0;
+}
+
+@media (max-width: 1024px) {
+  .editor-container {
+    padding-right: 300px;
+  }
 }
 
 @media (max-width: 768px) {

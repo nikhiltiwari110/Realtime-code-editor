@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { socket } from "../socket";
 import "../styles/ChatPanel.css";
 
-const ChatPanel = ({ roomId, username }) => {
+const ChatPanel = ({ roomId, username, isOpen, setIsOpen }) => {
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [isTyping, setIsTyping] = useState(false);
@@ -10,7 +10,6 @@ const ChatPanel = ({ roomId, username }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const [isOpen, setIsOpen] = useState(true);
   const messagesEndRef = useRef(null);
   const typingTimeoutRef = useRef(null);
   const textareaRef = useRef(null);
@@ -183,24 +182,28 @@ const ChatPanel = ({ roomId, username }) => {
 
   return (
     <div className={`chat-panel ${isOpen ? "open" : "closed"}`}>
-      {/* Header */}
-      <div className="chat-panel-header">
+      {/* Header - Always Visible */}
+      <div className={`chat-panel-header ${!isOpen ? 'closed' : ''}`}>
         <div className="chat-title-section">
-          <span className="chat-icon">💬</span>
-          <h3>Live Chat</h3>
-          <span className="chat-badge">{messages.length}</span>
-          <button
-            className="action-btn close-btn"
-            onClick={() => setIsOpen(!isOpen)}
-            title={isOpen ? "Hide chat" : "Show chat"}
-            aria-label={isOpen ? "Hide chat panel" : "Show chat panel"}
-          >
-            {isOpen ? "✕" : "💬"}
-          </button>
+          {isOpen && (
+            <>
+              <span className="chat-icon">💬</span>
+              <h3>Live Chat</h3>
+              <span className="chat-badge">{messages.length}</span>
+            </>
+          )}
         </div>
+        <button
+          className="action-btn close-btn"
+          onClick={() => setIsOpen(!isOpen)}
+          title={isOpen ? "Hide chat" : "Show chat"}
+          aria-label={isOpen ? "Hide chat panel" : "Show chat panel"}
+        >
+          {isOpen ? "✕" : "💬"}
+        </button>
       </div>
 
-      {/* Messages Container */}
+      {/* Messages Container - Only When Open */}
       {isOpen && (
         <>
           <div className="chat-messages-container">

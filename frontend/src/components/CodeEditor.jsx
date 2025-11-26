@@ -71,6 +71,7 @@ const CodeEditor = ({ roomId, username }) => {
   const [notificationMessage, setNotificationMessage] = useState("");
   const [syncStatus, setSyncStatus] = useState("connected");
   const [lastSaveTime, setLastSaveTime] = useState(new Date());
+  const [isChatOpen, setIsChatOpen] = useState(true);
   
   const editorRef = useRef(null);
   const isResizing = useRef(false);
@@ -345,7 +346,7 @@ const CodeEditor = ({ roomId, username }) => {
   };
 
   return (
-    <div className="editor-container">
+    <div className={`editor-container ${!isChatOpen ? 'chat-hidden' : ''}`}>
       {/* Animated Background Elements */}
       <div className="editor-bg-orb orb-1"></div>
       <div className="editor-bg-orb orb-2"></div>
@@ -471,7 +472,7 @@ const CodeEditor = ({ roomId, username }) => {
           </div>
         </div>
         {/* ========= MODERN CHAT PANEL ========= */}
-        <ChatPanel roomId={roomId} username={username} />
+        <ChatPanel roomId={roomId} username={username} isOpen={isChatOpen} setIsOpen={setIsChatOpen} />
 
 
         {/* Editor Section */}
