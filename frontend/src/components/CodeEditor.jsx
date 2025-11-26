@@ -360,6 +360,18 @@ const CodeEditor = ({ roomId, username }) => {
         </div>
       )}
 
+      {/* Floating Chat Toggle Button */}
+      {!isChatOpen && (
+        <button
+          className="floating-chat-btn"
+          onClick={() => setIsChatOpen(true)}
+          title="Show chat panel"
+          aria-label="Show chat panel"
+        >
+          💬
+        </button>
+      )}
+
       {/* Header */}
       <div className="editor-header">
         <div className="header-left">
