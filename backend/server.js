@@ -7,11 +7,11 @@ import judge0Client from "./utils/judge0Client.js";
 import { executeCode } from "./executeCode.js";
 import OpenAI from "openai";
 dotenv.config();
+
+const app = express();
 app.get("/", (req, res) => {
   res.send("Backend is running");
 });
-
-const app = express();
 const server = http.createServer(app);
 
 const io = new Server(server, {
