@@ -16,14 +16,22 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:5173", "http://localhost:5174"],
+    origin: ["http://localhost:5173", "http://localhost:5174","https://realtimecodeeditor.vercel.app"],
     methods: ["GET", "POST"],
   },
   pingTimeout: 60000,
   pingInterval: 25000,
 });
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "https://realtimecodeeditor.vercel.app"
+  ],
+  credentials: true
+}));
+
 app.use(express.json());
 
 const rooms = {};
