@@ -9,10 +9,22 @@ const ChatPanel = ({ roomId, username }) => {
   const [typingUsers, setTypingUsers] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const messagesEndRef = useRef(null);
   const typingTimeoutRef = useRef(null);
+  const textareaRef = useRef(null);
 
   const emojis = ["😀", "😂", "🤔", "❤️", "👍", "🎉", "🚀", "💡", "🔥", "✨", "👌", "😎"];
+
+  // Detect mobile/tablet
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   // Auto-scroll to bottom
   const scrollToBottom = () => {
@@ -22,6 +34,17 @@ const ChatPanel = ({ roomId, username }) => {
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  // Auto-expand textarea
+  const autoExpandTextarea = () => {
+    if (textareaRef.current) {
+      textareaRef.current.style.height = "auto";
+      textareaRef.current.style.height = Math.min(
+        textareaRef.current.scrollHeight,
+        100
+      ) + "px";
+    }
+  };
 
   // Listen for messages
   useEffect(() => {
@@ -93,6 +116,11 @@ const ChatPanel = ({ roomId, username }) => {
     setIsTyping(false);
     if (typingTimeoutRef.current) clearTimeout(typingTimeoutRef.current);
     socket.emit("user:typing", { roomId, username, isTyping: false });
+    
+    // Reset textarea height
+    if (textareaRef.current) {
+      textareaRef.current.style.height = "auto";
+    }
   };
 
   const handleAskAI = () => {
@@ -108,11 +136,17 @@ const ChatPanel = ({ roomId, username }) => {
 
     setInputValue("");
     setIsTyping(false);
+    
+    // Reset textarea height
+    if (textareaRef.current) {
+      textareaRef.current.style.height = "auto";
+    }
   };
 
   const handleInputChange = (e) => {
     const value = e.target.value;
     setInputValue(value);
+    autoExpandTextarea();
 
     // Notify typing
     if (!isTyping && value.length > 0) {
@@ -138,6 +172,7 @@ const ChatPanel = ({ roomId, username }) => {
   const addEmoji = (emoji) => {
     setInputValue((prev) => prev + emoji);
     setShowEmojiPicker(false);
+    textareaRef.current?.focus();
   };
 
   const formatTime = (timestamp) => {
@@ -218,19 +253,22 @@ const ChatPanel = ({ roomId, username }) => {
               className="action-btn emoji-btn"
               onClick={() => setShowEmojiPicker(!showEmojiPicker)}
               title="Add emoji"
+              aria-label="Add emoji"
             >
               😊
             </button>
           </div>
 
           <textarea
+            ref={textareaRef}
             className="chat-input"
             value={inputValue}
             onChange={handleInputChange}
             onKeyPress={handleKeyPress}
-            placeholder="Type a message... (Shift+Enter for new line)"
-            rows="2"
+            placeholder={isMobile ? "Message..." : "Type a message... (Shift+Enter for new line)"}
+            rows="1"
             disabled={isLoading}
+            style={{ overflow: "hidden" }}
           />
 
           <div className="input-buttons">
@@ -239,6 +277,7 @@ const ChatPanel = ({ roomId, username }) => {
               onClick={handleSendMessage}
               disabled={!inputValue.trim() || isLoading}
               title="Send message"
+              aria-label="Send message"
             >
               ✈️
             </button>
@@ -247,6 +286,7 @@ const ChatPanel = ({ roomId, username }) => {
               onClick={handleAskAI}
               disabled={!inputValue.trim() || isLoading}
               title="Ask AI Assistant"
+              aria-label="Ask AI Assistant"
             >
               {isLoading ? "⏳" : "🤖"}
             </button>
@@ -261,6 +301,7 @@ const ChatPanel = ({ roomId, username }) => {
                 key={emoji}
                 className="emoji-btn"
                 onClick={() => addEmoji(emoji)}
+                type="button"
               >
                 {emoji}
               </button>
