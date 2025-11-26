@@ -16,7 +16,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:5173", "http://localhost:5174","https://realtimecodeeditor.vercel.app"],
+    origin: ["http://localhost:5173", "http://localhost:5174","https://realtimecodeeditor-git-nikhil-nikhil-tiwaris-projects-666aea5a.vercel.app/"],
     methods: ["GET", "POST"],
   },
   pingTimeout: 60000,
@@ -27,7 +27,7 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "http://localhost:5174",
-    "https://realtimecodeeditor.vercel.app"
+    "https://realtimecodeeditor-git-nikhil-nikhil-tiwaris-projects-666aea5a.vercel.app/"
   ],
   credentials: true
 }));
