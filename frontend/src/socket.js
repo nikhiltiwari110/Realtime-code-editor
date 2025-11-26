@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-// Single socket instance
-export const socket = io("http://localhost:5000", {
+export const socket = io("https://realtime-code-editor-c8ja.onrender.com", {
   transports: ["websocket"],
+  withCredentials: true,
 });
